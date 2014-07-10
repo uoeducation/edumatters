@@ -1,0 +1,1164 @@
+<html>
+    <head>
+    </head>
+    <body leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" style="margin: 0px; padding: 0px;" marginheight="0" marginwidth="0">
+        <table style="border-collapse: collapse; border-spacing: 0px;" align="center" bgcolor="ede9e0" border="0" cellpadding="0" cellspacing="0" width="600">
+            <tbody>
+                <!-- TOP ###################################################################//-->
+                <tr bgcolor="#ffffff">
+                    <td width="10" height="45"></td>
+                    <td width="30" height="45"></td>
+                    <td width="520" height="45"></td>
+                    <td width="30" height="45"></td>
+                    <td width="10" height="45"></td>
+                </tr>
+
+                    <!-- ARCHIVE tool ###################################################################//-->
+                    <tr bgcolor="ffffff" height="22">
+                        <td width="10" height="22" valign="bottom"></td>
+                        <td width="30" height="22" valign="top"></td>
+                        <td align="center" height="22">
+
+                            <form style="margin: 0px; display: inline-block;" action="#" id="issue" method="post">
+
+                                <select onchange="window.location=this.options[this.selectedIndex].value;">
+                                    <option value="http://pages.uoregon.edu/edmatters/apr14.html" selected>
+                                        April 2014
+                                    </option>
+                                    <option value="http://pages.uoregon.edu/edmatters/feb14.html">
+                                        February 2014
+                                    </option>
+                                    <option value="http://pages.uoregon.edu/edmatters/nov13.html">
+                                        November 2013
+                                    </option>
+                                </select>
+
+                            </form>
+
+                        </td>
+                        <td width="30" height="22"></td>
+                        <td width="10" height="22"></td>
+                    </tr>
+                    <!-- END ARCHIVE tool /////////////////////////////////////////////////////////////////-->
+                
+                <tr bgcolor="ffffff" height="15">
+                    <td width="10" height="15"></td>
+                    <td width="30" height="15"></td>
+                    <td width="520" height="15"></td>
+                    <td width="30" height="15"></td>
+                    <td width="10" height="15"></td>
+                </tr>
+                <!-- END TOP ###############################################################//-->
+                <!-- MASTHEAD ###################################################################//-->
+                <tr bgcolor="ffd83b" height="45">
+                    <td height="45" width="10"></td>
+                    <td height="45" width="30"></td>
+                    <td height="45"></td>
+                    <td height="45" width="30"></td>
+                    <td height="45" width="10"></td>
+                </tr>
+                <tr bgcolor="ffd83b" height="100">
+                    <td height="100" width="10"></td>
+                    <td height="100" width="30"></td>
+                    <td height="100" width="600">
+                    <table style="border-collapse: collapse; border-spacing: 0px;" border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                            <tr>
+                                <td height="100" valign="middle" width="84">
+                                <a href="https://education.uoregon.edu/" target="_blank">
+                                <img alt="University of Oregon College of Education logo" src="http://pages.uoregon.edu/edmatters/media/skin/UO_COE_logo_stack_black.png" align="left" border="0" height="97" width="84">
+                                </a>
+                                </td>
+                                <td height="100" valign="bottom" width="44"></td>
+                                <td style="line-height: 5px;" height="100" width="392">
+                                <img alt="Education Matters masthead" src="http://pages.uoregon.edu/edmatters/media/skin/masthead.png" align="right" border="0" height="100" width="392">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </td>
+                    <td height="100" width="30"></td>
+                    <td height="100" width="10"></td>
+                </tr>
+                <tr bgcolor="ffd83b" height="30">
+                    <td height="30" width="10"></td>
+                    <td height="30" width="30"></td>
+                    <td height="30" width="520"></td>
+                    <td height="30" width="30"></td>
+                    <td height="30" width="10"></td>
+                </tr>
+                <tr bgcolor="ffd83b" height="10">
+                    <td height="10" width="10"></td>
+                    <td height="10" width="30"></td>
+                    <td style="border-top: dashed 1px #2e2e2e;" height="10" width="520"></td>
+                    <td height="10" width="30"></td>
+                    <td height="10" width="10"></td>
+                </tr>
+                <tr bgcolor="ffd83b" height="20">
+                    <td height="20" width="10"></td>
+                    <td height="20" width="30"></td>
+                    <td style="font-family: Cambria, Palatino, serif; font-size: 14pt; line-height: 14pt;" align="center" width="520">
+                    <span style="font-family: Cambria; color: rgb(46, 46, 46);">
+                    <div style="font-family: Cambria, Palatino, serif; font-size: 14pt; line-height: 14pt;">
+                    <em>
+                    The newsletter of the University of Oregon College of Education
+                    </em>
+                    </div>
+                    </span>
+                    </td>
+                    <td height="20" width="30"></td>
+                    <td height="20" width="10"></td>
+                </tr>
+                <tr bgcolor="ffd83b" height="10">
+                    <td height="10" width="10"></td>
+                    <td height="10" width="30"></td>
+                    <td height="10" valign="top"></td>
+                    <td height="10" width="30"></td>
+                    <td height="10" width="10"></td>
+                </tr>
+                <tr bgcolor="ffd83b" height="30">
+                    <td height="30" width="10"></td>
+                    <td height="30" width="30"></td>
+                    <td style="border-top: dashed 1px #2e2e2e;" height="30" width="520"></td>
+                    <td height="30" width="30"></td>
+                    <td height="30" width="10"></td>
+                </tr>
+                <!-- END MASTHEAD ###############################################################//-->
+                <!-- ALERT! ###################################################################//-->
+                <tr bgcolor="#8e2e2e" height="100">
+                    <td height="100" width="10">
+                    <br>
+                    </td>
+                    <td height="100" width="30">
+                    <br>
+                    </td>
+                    <td style="border: 0px solid yellow;" align="center" height="100" valign="center" width="520">
+                    <table style="border-collapse: collapse; border-spacing: 0px;" border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                            <tr>
+                                <td style="border: 0px;" align="center" valign="center" width="68">
+                                <img alt="sunflower icon" src="http://pages.uoregon.edu/edmatters/media/issues/2014/apr/sunflower-w.png" border="0" height="47" width="48">
+                                </td>
+                                <td align="center" valign="top" width="25%">
+                                <a href="http://uocoe.me/1efw79k" target="_blank" style="text-decoration: none;">
+                                <span style="font-size: 32pt; font-family: Arial, sans-serif; color: rgb(255, 255, 255);">
+                                <strong>
+                                VOTE
+                                </strong>
+                                </span>
+                                </a>
+                                </td>
+                                <td width="15"></td>
+                                <td>
+                                <a href="http://uocoe.me/1efw79k" target="_blank" style="text-decoration: none;">
+                                <span style="font-size: 11pt; font-family: Arial; color: rgb(255, 255, 255);">
+                                for Edison Elementary's Schoolhouse Garden to get a Seeds of Change grant!
+                                <span style="font-size: 9pt; color: rgb(225, 225, 225);">
+                                <em>*no registration</em>
+                                </span>
+                                </span>
+                                </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </td>
+                    <td height="100" width="30">
+                    <br>
+                    </td>
+                    <td height="100" width="10">
+                    <br>
+                    </td>
+                </tr>
+                <!-- END ALERT! ###############################################################//-->
+                <!-- STORY 2-COL ###############################################################//-->
+                <tr>
+                    <td colspan="5">
+                    <table style="border-collapse: collapse; border-spacing: 0px;" border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                            <tr>
+                                <td style="background-color: #ffffff; width: 10px; line-height: 5px;" bgcolor="ffffff" valign="top" width="10">
+                                <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/left.png" border="0" height="10" width="10">
+                                </td>
+                                <td colspan="3">
+                                <table style="border-collapse: collapse; border-spacing: 0px;" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                        <tr>
+                                            <td style="line-height: 5px;" valign="top" width="290">
+                                            <img alt="" src="http://pages.uoregon.edu/edmatters/media/issues/2014/apr/adams.jpg" style="border: 0px none; padding: 0px;" border="0" height="400" width="290">
+                                            </td>
+                                            <td style="line-height: 5px;" valign="top" width="10">
+                                            <img src="http://pages.uoregon.edu/edmatters/media/skin/shadow.png" style="padding: 0px; border: 0px none;" border="0" height="30" width="10">
+                                            </td>
+                                            <td valign="top" width="280">
+                                            <table style="border-collapse: collapse; border-spacing: 0px;" border="0" cellpadding="0" cellspacing="0" height="30" width="280">
+                                                <tbody>
+                                                    <tr height="30">
+                                                        <td colspan="2" style="line-height: 5px;" height="30" width="280">
+                                                        <img src="http://pages.uoregon.edu/edmatters/media/skin/shadow.png" style="padding: 0px; border: 0px none;" border="0" height="30" width="280">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top" width="250">
+                                                        <table style="border-collapse: collapse; border-spacing: 0px;" border="0" cellpadding="0" cellspacing="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td style="font-family: Tahoma, sans-serif; text-decoration: none; font-size: 24pt; color: #8e2e2e;" width="250">
+                                                                    <a href="http://uocoe.me/em0414f1" target="_blank" style="text-decoration: none; color: #8e2e2e;">
+                                                                    <span style="text-decoration: none; font-size: 24pt; font-family: Tahoma, sans-serif; color: rgb(142, 46, 46);">
+                                                                    <strong>
+                                                                    Teaching children philosophy
+                                                                    </strong>
+                                                                    </span>
+                                                                    </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="15" width="250"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td width="250">
+                                                                    <span style="font-size: 14pt; line-height: 20pt; font-family: Cambria, Palatino, serif; color: rgb(46, 46, 46);">
+                                                                    Think kids are just learning facts and figures? Think again. Thanks to a college course, small people are tackling the big questions.
+                                                                    </span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="15" width="250"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="font-family: Arial, sans-serif; color: #8e2e2e; font-size: 14pt;" width="250">
+                                                                    <a href="http://uocoe.me/em0414f1" target="_blank" style="text-decoration: none;">
+                                                                    <span style="font-size: 14pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                                                    <strong>
+                                                                    CONTINUE READING
+                                                                    </strong>
+                                                                    </span>
+                                                                    <span style="font-size: 19pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                                                    &raquo;
+                                                                    </span>
+                                                                    </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td height="30" width="250"></td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        </td>
+                                                        <td height="10" width="30"></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </td>
+                                <td style="background-color: white; width: 10px; height: 10px; line-height: 5px;" bgcolor="ffffff" valign="top" width="10">
+                                <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/right.png" border="0" height="10" width="10">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </td>
+                </tr>
+                <!-- END STORY 2-COL ###########################################################//-->
+                <tr bgcolor="ffd83b" height="30">
+                    <td height="30" width="10"></td>
+                    <td height="30" width="30"></td>
+                    <td height="30" width="520"></td>
+                    <td height="30" width="30"></td>
+                    <td height="30" width="10"></td>
+                </tr>
+                <tr bgcolor="ffd83b">
+                    <td width="10"></td>
+                    <td width="30"></td>
+                    <td width="520">
+                    <table style="border-collapse: collapse; border-spacing: 0px;" border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 160px;" valign="top" width="160">
+                                <table style="border-collapse: collapse; border-spacing: 0px;" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" height="36" width="160">
+                                            <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/calendar.png" style="border: medium none;" border="0" height="36" width="36">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="5" width="160"></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" width="160">
+                                            <h3 style="font-family: Tahoma, Arial, sans-serif; font-size: 18pt; margin: 0px; padding: 0px; letter-spacing: 1pt; color: #2e2e2e;">
+                                            <span style="font-size: 18pt; letter-spacing: 1pt; font-family: Tahoma, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            <strong>
+                                            EVENTS
+                                            </strong>
+                                            </span>
+                                            </h3>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="4" width="160"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="border-top: dashed 1px #2e2e2e;" height="1" width="160"></td>
+                                        </tr>
+                                        <tr>
+                                            <td height="15" width="160"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 11pt; font-family: Calibri, Arial, sans-serif;" width="160">
+                                            <a href="http://uocoe.me/em0414e0" target="_blank" style="text-decoration: none;">
+                                            <span style="font-size: 11pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                            <strong>
+                                            Through April
+                                            </strong>
+                                            </span>
+                                            </a>
+                                            <br>
+                                            <span style="font-size: 11pt; font-family: Calibri, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            Autism Awareness Month
+                                            </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="15"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 11pt; font-family: Calibri, Arial, sans-serif;" width="160">
+                                            <a href="http://uocoe.me/em0214e3" target="_blank" style="text-decoration: none;">
+                                            <span style="font-size: 11pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                            <strong>
+                                            April 28-29
+                                            </strong>
+                                            </span>
+                                            </a>
+                                            <br>
+                                            <span style="font-size: 11pt; font-family: Calibri, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            Center for Equity Promotion Conference: Strong Global Communities (UO Ford Alumni Center)
+                                            </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="15" width="160"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 11pt; font-family: Calibri, Arial, sans-serif;" width="160">
+                                            <a href="http://uocoe.me/em0414e2" target="_blank" style="text-decoration: none;">
+                                            <span style="font-size: 11pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                            <strong>
+                                            Through July 27
+                                            </strong>
+                                            </span>
+                                            </a>
+                                            <br>
+                                            <span style="font-size: 11pt; font-family: Calibri, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            WPA Impressions: The Reality of the American Dream (Schnitzer Museum of Art)
+                                            </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="15" width="160"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 11pt; font-family: Calibri, Arial, sans-serif;" width="160">
+                                            <a href="http://uocoe.me/em0414e3" target="_blank" style="text-decoration: none;">
+                                            <span style="font-size: 11pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                            <strong>
+                                            May 7-10
+                                            </strong>
+                                            </span>
+                                            </a>
+                                            <br>
+                                            <span style="font-size: 11pt; font-family: Calibri, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            ASUO Street Faire and
+                                            <a href="http://uocoe.me/em0414e4" target="_blank" style="text-decoration: none;">
+                                            <span style="font-size: 11pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                            <strong>
+                                            Willamette Valley Music Festival
+                                            </strong>
+                                            </span>
+                                            </a>
+                                            </span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </td>
+                                <td style="width: 20px;" width="20">
+                                <br>
+                                </td>
+                                <td style="width: 160px;" valign="top" width="160">
+                                <table style="border-collapse: collapse; border-spacing: 0px;" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" height="36" width="160">
+                                            <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/bio.png" style="border: medium none;" border="0" height="36" width="36">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="5" width="160"></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" width="160">
+                                            <h3 style="font-family: Tahoma, Arial, sans-serif; font-size: 18pt; margin: 0px; padding: 0px; letter-spacing: 1pt; color: #2e2e2e;">
+                                            <span style="font-size: 18pt; letter-spacing: 1pt; font-family: Tahoma, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            <strong>
+                                            PEOPLE
+                                            </strong>
+                                            </span>
+                                            </h3>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="4" width="160"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="border-top: dashed 1px #2e2e2e;" height="1" width="160"></td>
+                                        </tr>
+                                        <tr>
+                                            <td height="15" width="160"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 11pt; font-family: Calibri, Arial, sans-serif;" width="160">
+                                            <span style="font-size: 11pt; font-family: Calibri, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            Remembering longtime COE supporter
+                                            </span>
+                                            <a href="http://uocoe.me/em0414p1" target="_blank" style="text-decoration: none;">
+                                            <span style="font-size: 11pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                            <strong>
+                                            Don Parr
+                                            </strong>
+                                            </span>
+                                            </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="15" width="160"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 11pt; font-family: Calibri, Arial, sans-serif;" width="160">
+                                            <span style="font-size: 11pt; font-family: Calibri, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            Why student troupe
+                                            </span>
+                                            <a href="http://uocoe.me/em0414p2" target="_blank" style="text-decoration: none;">
+                                            <span style="font-size: 11pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                            <strong>
+                                            Rehearsals for Life
+                                            </strong>
+                                            </span>
+                                            </a>
+                                            <span style="font-size: 11pt; font-family: Calibri, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            appeals to COE students
+                                            </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="15" width="160"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 11pt; font-family: Calibri, Arial, sans-serif;" width="160">
+                                            <a href="http://uocoe.me/em0414p3" target="_blank" style="text-decoration: none;">
+                                            <span style="font-size: 11pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                            <strong>
+                                            Judy Newman
+                                            </strong>
+                                            </span>
+                                            </a>
+                                            <span style="font-size: 11pt; font-family: Calibri, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            honored by United Way
+                                            </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="15" width="160"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 11pt; font-family: Calibri, Arial, sans-serif;" width="160">
+                                            <a href="http://uocoe.me/em0414p5" target="_blank" style="text-decoration: none;">
+                                            <span style="font-size: 11pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                            <strong>
+                                            Krista Chronister's
+                                            </strong>
+                                            </span>
+                                            </a>
+                                            <span style="font-size: 11pt; font-family: Calibri, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            study on abusive relationships
+                                            </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="15" width="160"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 11pt; font-family: Calibri, Arial, sans-serif;" width="160">
+                                            <span style="font-size: 11pt; font-family: Calibri, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            Retired faculty member
+                                            </span>
+                                            <a href="http://uocoe.me/em0414p6" target="_blank" style="text-decoration: none;">
+                                            <span style="font-size: 11pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                            <strong>
+                                            Gary Ferrington
+                                            </strong>
+                                            </span>
+                                            </a>
+                                            <span style="font-size: 11pt; font-family: Calibri, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            helps out SOMD
+                                            </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="15" width="160">
+                                            <br>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 11pt; font-family: Calibri, Arial, sans-serif;" width="160">
+                                            <span style="font-size: 11pt; font-family: Calibri, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            Students build
+                                            </span>
+                                            <a href="http://uocoe.me/em0414p7" target="_blank" style="text-decoration: none;">
+                                            <span style="font-size: 11pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                            <strong>
+                                            basketball courts
+                                            </strong>
+                                            </span>
+                                            </a>
+                                            <span style="font-size: 11pt; font-family: Calibri, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            in the Dominican Republic
+                                            </span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </td>
+                                <td style="width: 20px;" width="20"></td>
+                                <td style="width: 160px;" valign="top" width="160">
+                                <table style="border-collapse: collapse; border-spacing: 0px;" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" height="36" width="160">
+                                            <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/commentround.png" style="border: medium none;" border="0" height="36" width="36">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="5" width="160"></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" width="160">
+                                            <h3 style="font-family: Tahoma, Arial, sans-serif; font-size: 18pt; margin: 0px; padding: 0px; letter-spacing: 1pt; color: #2e2e2e;">
+                                            <span style="font-size: 18pt; letter-spacing: 1pt; font-family: Tahoma, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            <strong>
+                                            TWEETS
+                                            </strong>
+                                            </span>
+                                            </h3>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="4" width="160"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="border-top: dashed 1px #2e2e2e;" height="1" width="160"></td>
+                                        </tr>
+                                        <tr>
+                                            <td height="15" width="160"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 11pt; font-family: Calibri, Arial, sans-serif;" width="160">
+                                            <span style="font-size: 11pt; font-family: Calibri, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            Oregon sprinter and FHS major
+                                            </span>
+                                            <a href="http://uocoe.me/em0414t1" target="_blank" style="text-decoration: none;">
+                                            <span style="font-size: 11pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                            <strong>
+                                            Mike Berry
+                                            </strong>
+                                            </span>
+                                            </a>
+                                            <span style="font-size: 11pt; font-family: Calibri, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            makes a difference off the track, too
+                                            </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="15" width="160"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 11pt; font-family: Calibri, Arial, sans-serif;" width="160">
+                                            <span style="font-size: 11pt; font-family: Calibri, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            Congratulations graduate!
+                                            </span>
+                                            <a href="http://uocoe.me/em0414t2" target="_blank" style="text-decoration: none;">
+                                            <span style="font-size: 11pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                            <strong>
+                                            11 reasons
+                                            </strong>
+                                            </span>
+                                            </a>
+                                            <span style="font-size: 11pt; font-family: Calibri, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            why I will never hire you
+                                            </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="15" width="160"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 11pt; font-family: Calibri, Arial, sans-serif;" width="160">
+                                            <span style="font-size: 11pt; font-family: Calibri, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            Future school psychologists: UO has 4th-cheapest high-quality program,
+                                            </span>
+                                            <a href="http://uocoe.me/em0414t3" target="_blank" style="text-decoration: none;">
+                                            <span style="font-size: 11pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                            <strong>
+                                            report says
+                                            </strong>
+                                            </span>
+                                            </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="15" width="160"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 11pt; font-family: Calibri, Arial, sans-serif;" width="160">
+                                            <a href="http://uocoe.me/em0414t4" target="_blank" style="text-decoration: none;">
+                                            <span style="font-size: 11pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                            <strong>
+                                            18 things
+                                            </strong>
+                                            </span>
+                                            </a>
+                                            <span style="font-size: 11pt; font-family: Calibri, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            highly creative people do differently
+                                            </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="15" width="160"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 11pt; font-family: Calibri, Arial, sans-serif;" width="160">
+                                            <span style="font-size: 11pt; font-family: Calibri, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            Autism Society of Oregon's
+                                            </span>
+                                            <a href="http://uocoe.me/em0414t5" target="_blank" style="text-decoration: none;">
+                                            <span style="font-size: 11pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                            <strong>
+                                            Walk-a-Thon
+                                            </strong>
+                                            </span>
+                                            </a>
+                                            <span style="font-size: 11pt; font-family: Calibri, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                            Sunday, April 27 in PDX #AutismAwareness
+                                            </span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="15" width="160"></td>
+                                <td height="15" width="20"></td>
+                                <td height="15" width="160"></td>
+                                <td height="15" width="20"></td>
+                                <td height="15" width="160"></td>
+                            </tr>
+                            <tr>
+                                <td style="border-top: dashed 1px #2e2e2e;" height="15" width="160"></td>
+                                <td height="15" width="20"></td>
+                                <td style="border-top: dashed 1px #2e2e2e;" height="15" width="160"></td>
+                                <td height="15" width="20"></td>
+                                <td style="border-top: dashed 1px #2e2e2e;" height="15" width="160"></td>
+                            </tr>
+                            <tr>
+                                <td style="font-size: 13pt; width: 160px; font-family: Arial, sans-serif;" width="160">
+                                <a href="https://education.uoregon.edu/calendar" target="_blank" style="text-decoration: none;">
+                                <span style="font-size: 13pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                <strong>
+                                MORE EVENTS &raquo;
+                                </strong>
+                                </span>
+                                </a>
+                                </td>
+                                <td width="20"></td>
+                                <td style="font-size: 13pt; width: 160px; font-family: Arial, sans-serif;" width="160">
+                                <a href="https://education.uoregon.edu/announcements" target="_blank" style="text-decoration: none;">
+                                <span style="font-size: 13pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                <strong>
+                                MORE NEWS &raquo;
+                                </strong>
+                                </span>
+                                </a>
+                                </td>
+                                <td width="20"></td>
+                                <td style="font-size: 13pt; width: 160px; font-family: Arial, sans-serif;" width="160">
+                                <a href="http://www.twitter.com/uoeducation" target="_blank" style="text-decoration: none;">
+                                <span style="font-size: 13pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                <strong>
+                                MORE TWEETS &raquo;
+                                </strong>
+                                </span>
+                                </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </td>
+                    <td width="30"></td>
+                    <td width="10"></td>
+                </tr>
+                <tr bgcolor="ffd83b">
+                    <td height="30" width="10"></td>
+                    <td height="30" width="30"></td>
+                    <td height="30" width="520"></td>
+                    <td height="30" width="30"></td>
+                    <td height="30" width="10"></td>
+                </tr>
+                <tr>
+                    <td colspan="5" width="600">
+                    <table style="border-collapse: collapse; border-spacing: 0px;" border="0" cellpadding="0" cellspacing="0" width="600">
+                        <tbody>
+                            <tr>
+                                <td style="line-height: 5px;" bgcolor="ffffff" valign="top" width="10">
+                                <img src="http://pages.uoregon.edu/edmatters/media/skin/left.png" border="0" height="10" width="10">
+                                </td>
+                                <td width="580">
+                                <a href="http://uocoe.me/em0214f2" target="_blank">
+                                <img alt="" src="http://pages.uoregon.edu/edmatters/media/issues/2014/apr/russia-visit.jpg" border="0" height="387" width="580">
+                                </a>
+                                </td>
+                                <td style="line-height: 5px;" bgcolor="ffffff" valign="top" width="10">
+                                <img src="http://pages.uoregon.edu/edmatters/media/skin/right.png" border="0" height="10" width="10">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" width="600">
+                    <table style="border-collapse: collapse; border-spacing: 0px;" border="0" cellpadding="0" cellspacing="0" width="600">
+                        <tbody>
+                            <tr>
+                                <td bgcolor="ffffff" width="10"></td>
+                                <td width="30"></td>
+                                <td width="520">
+                                <table style="border-collapse: collapse; border-spacing: 0px;" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                        <tr>
+                                            <td width="520">
+                                            <a href="http://uocoe.me/em0414f2" target="_blank" style="text-decoration: none;">
+                                            <span style="font-size: 24pt; font-family: Tahoma, Arial, sans-serif; color: rgb(142, 46, 46);">
+                                            <strong>
+                                            Russians among us
+                                            </strong>
+                                            </span>
+                                            </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="15" width="520"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="520">
+                                            <span style="font-size: 14pt; line-height: 20pt; font-family: Cambria, Palatino, serif; color: rgb(46, 46, 46);">
+                                            The Family and Human Services program recently hosted students and faculty from a Russian university. The group is focused on child welfare. Come June, the UO students plan to complete the exchange by traveling to Russia.
+                                            </span>
+                                            </td>
+                                        </tr>
+                                        <tr height="15">
+                                            <td height="15" width="520"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-family: Arial, sans-serif; color: #8e2e2e; font-size: 14pt;" width="520">
+                                            <a href="http://uocoe.me/em0414f2" target="_blank" style="text-decoration: none;">
+                                            <span style="font-size: 14pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                            <strong>
+                                            CONTINUE READING
+                                            </strong>
+                                            </span>
+                                            <span style="font-size: 19pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                            &raquo;
+                                            </span>
+                                            </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="30" width="520"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </td>
+                                <td width="30"></td>
+                                <td bgcolor="ffffff" width="10"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </td>
+                </tr>
+                <tr bgcolor="ffd83b" height="30">
+                    <td height="30" width="10"></td>
+                    <td height="30" width="30"></td>
+                    <td height="30"></td>
+                    <td height="30" width="30"></td>
+                    <td height="30" width="10"></td>
+                </tr>
+                <tr bgcolor="ffd83b">
+                    <td height="30" width="10"></td>
+                    <td height="30" width="30"></td>
+                    <td align="right" height="48" width="520">
+                    <table style="border-collapse: collapse; border-spacing: 0px;" border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                            <tr>
+                                <td height="48" width="105">
+                                <h3 style="font-family: Tahoma, Arial, sans-serif; font-weight: bold; font-size: 18pt; margin: 0px; padding: 0px; letter-spacing: 1pt; color: #2e2e2e;">
+                                <span style="font-weight: bold; font-size: 18pt; margin: 0px; padding: 0px; letter-spacing: 1pt; font-family: Tahoma, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                ENGAGE
+                                </span>
+                                </h3>
+                                </td>
+                                <td height="48" width="30"></td>
+                                <td height="48" width="48">
+                                <a href="http://www.facebook.com/uoeducation" target="_blank">
+                                <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/facebook_48px.png" style="border: medium none;" border="0" height="48" width="48">
+                                </a>
+                                </td>
+                                <td height="48" width="30"></td>
+                                <td height="48" width="48">
+                                <a href="http://www.twitter.com/uoeducation" target="_blank">
+                                <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/twitter_48px.png" style="border: medium none;" border="0" height="48" width="48">
+                                </a>
+                                </td>
+                                <td height="48" width="30"></td>
+                                <td height="48" width="48">
+                                <a href="http://www.flickr.com/uoeducation" target="_blank">
+                                <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/flickr_48px.png" style="border: medium none;" border="0" height="48" width="48">
+                                </a>
+                                </td>
+                                <td height="48" width="30"></td>
+                                <td height="48" width="48">
+                                <a href="http://www.youtube.com/uoeducation" target="_blank">
+                                <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/youtube_48px.png" style="border: medium none;" border="0" height="48" width="48">
+                                </a>
+                                </td>
+                                <td height="48" width="30"></td>
+                                <td height="48" width="48">
+                                <a href="http://www.instagram.com/uoeducation" target="_blank">
+                                <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/instagram_48px.png" style="border: medium none;" border="0" height="48" width="48">
+                                </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </td>
+                    <td height="30" width="30"></td>
+                    <td height="30" width="10"></td>
+                </tr>
+                <tr bgcolor="ffd83b" height="30">
+                    <td height="30" width="10"></td>
+                    <td height="30" width="30"></td>
+                    <td height="30" width="520"></td>
+                    <td height="30" width="30"></td>
+                    <td height="30" width="10"></td>
+                </tr>
+                <tr>
+                    <td colspan="5" width="600">
+                    <table style="border-collapse: collapse; border-spacing: 0px;" border="0" cellpadding="0" cellspacing="0" width="600">
+                        <tbody>
+                            <tr>
+                                <td style="line-height: 5px;" bgcolor="ffffff" valign="top" width="10">
+                                <img src="http://pages.uoregon.edu/edmatters/media/skin/left.png" border="0" height="10" width="10">
+                                </td>
+                                <td width="580">
+                                <a href="http://uocoe.me/em0414f3" target="_blank">
+                                <img alt="" src="http://pages.uoregon.edu/edmatters/media/issues/2014/apr/doc-students.jpg" border="0" height="387" width="580">
+                                </a>
+                                </td>
+                                <td style="line-height: 5px;" bgcolor="ffffff" valign="top" width="10">
+                                <img src="http://pages.uoregon.edu/edmatters/media/skin/right.png" border="0" height="10" width="10">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" width="600">
+                    <table style="border-collapse: collapse; border-spacing: 0px;" border="0" cellpadding="0" cellspacing="0" width="600">
+                        <tbody>
+                            <tr>
+                                <td bgcolor="ffffff" width="10"></td>
+                                <td width="30"></td>
+                                <td width="520">
+                                <table style="border-collapse: collapse; border-spacing: 0px;" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                        <tr>
+                                            <td width="520">
+                                            <a href="http://uocoe.me/em0414f3" target="_blank" style="text-decoration: none; font-size: 24pt; font-family: Tahoma, Arial, sans-serif; color: #8e2e2e;">
+                                            <span style="font-size: 24pt; font-family: Tahoma, Arial, sans-serif; color: rgb(142, 46, 46);">
+                                            <strong>
+                                            Native Opportunities
+                                            </strong>
+                                            </span>
+                                            </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="15" width="520"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="520">
+                                            <span style="font-size: 14pt; line-height: 20pt; font-family: Cambria, Palatino, serif; color: rgb(46, 46, 46);">
+                                            Research by doc students Jill Dolata and Allison Wilson could have a major impact on how tribal communities manage early childhood education.
+                                            </span>
+                                            </td>
+                                        </tr>
+                                        <tr height="15">
+                                            <td height="15" width="520"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-family: Arial, sans-serif; color: #8e2e2e; font-size: 14pt;" width="520">
+                                            <a href="http://uocoe.me/em0414f3" target="_blank" style="text-decoration: none;">
+                                            <span style="font-size: 14pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                            <strong>
+                                            CONTINUE READING
+                                            </strong>
+                                            </span>
+                                            <span style="font-size: 19pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                            &raquo;
+                                            </span>
+                                            </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="30" width="520"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </td>
+                                <td width="30"></td>
+                                <td bgcolor="ffffff" width="10"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </td>
+                </tr>
+                <tr bgcolor="ffd83b" height="35">
+                    <td height="35" width="10"></td>
+                    <td height="35" width="30"></td>
+                    <td height="35" width="520"></td>
+                    <td height="35" width="30"></td>
+                    <td height="35" width="10"></td>
+                </tr>
+                <tr bgcolor="ffd83b">
+                    <td width="10"></td>
+                    <td width="30"></td>
+                    <td width="520">
+                    <table style="border-collapse: collapse; border-spacing: 0px;" border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                            <tr>
+                                <td colspan="6" width="520">
+                                <span style="font-size: 18pt; letter-spacing: 1pt; font-family: Tahoma, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                <strong>
+                                Education Matters
+                                </strong>
+                                </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="6" style="height: 15px;" height="15" width="520">
+                                <br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="6" style="height: 1px; border-top: dashed 1px #2e2e2e;" height="1"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="6" style="height: 10px;" height="10"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="6" style="font-family: Arial, sans-serif; font-size: 11pt; color: #2e2e2e;">
+                                <span style="font-size: 11pt; font-family: Arial, sans-serif; color: rgb(46, 46, 46);">
+                                <strong>
+                                Volume XXI &bull; Issue II
+                                </strong>
+                                </span>
+                                </td>
+                            </tr>
+                            <tr height="10">
+                                <td colspan="6" height="10" width="520"></td>
+                            </tr>
+                            <tr height="1">
+                                <td colspan="6" style="height: 1px; border-top: dashed 1px #2e2e2e;" height="1" width="520"></td>
+                            </tr>
+                            <tr height="15">
+                                <td colspan="6" style="height: 20px;" height="20"></td>
+                            </tr>
+                            <tr>
+                                <td style="font-family: Calibri, Arial, sans-serif; font-size: 12pt; color: #2e2e2e; line-height: 16pt;">
+                                <span style="font-size: 12pt; font-family: Calibri, Arial, sans-serif; color: rgb(46, 46, 46);">
+                                Welcome to <em>Education Matters</em> for April 2014. Spring is here, and that makes us think of things that grow. Things that grow makes us think about our friends at Edison Elementary, just a few blocks south of campus. They're competing for a Seeds of Change grant to expand and improve their service-learning-related Schoolhouse Garden, but they need your vote. Just go to their
+                                <a href="http://uocoe.me/1efw79k" target="_blank" style="text-decoration: none;">
+                                <span style="font-size: 12pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                <strong>
+                                voting page
+                                </strong>
+                                </span>
+                                </a>
+                                and click the button&mdash;no registration required.
+                                <br>
+                                <br>
+                                <em>Education Matters</em> is distributed about twice per term, with one summer issue. Click
+                                <a href="mailto:edmatters@uoregon.edu" target="_blank" style="text-decoration: none;">
+                                <span style="font-size: 12pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                <strong>
+                                here
+                                </strong>
+                                </span>
+                                </a>
+                                or the "E-mail <em>Ed Matters</em>" link below to contact the editor; physical letters are always welcome at the mailing address below.<br>
+                                <br>
+                                <a href="http://uocoe.me/edumanage" target="_blank" style="text-decoration: none;">
+                                <span style="font-size: 12pt; font-family: Arial, sans-serif; color: rgb(142, 46, 46);">
+                                <strong>
+                                Manage your subscription
+                                </strong>
+                                </span>
+                                </a>
+                                </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 20px;" height="20" width="520"></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 1px; border-top: dashed 1px #2e2e2e;" height="1" width="520"></td>
+                            </tr>
+                            <tr height="15">
+                                <td style="height: 15px;" height="15" width="520"></td>
+                            </tr>
+                            <tr>
+                                <td style="font-family: Arial, serif; font-size: 11pt; color: #2e2e2e;" valign="top">
+                                <span style="font-size: 12pt; font-family: Arial, serif; color: rgb(46, 46, 46);">
+                                <strong>
+                                Published by the University of Oregon College of Education
+                                </strong>
+                                </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 15px;" height="15" width="520"></td>
+                            </tr>
+                            <tr>
+                                <td style="height: 1px; border-top: dashed 1px #2e2e2e;" height="1" width="520"></td>
+                            </tr>
+                            <tr height="15">
+                                <td style="height: 20px;" height="20" width="520"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                <table style="border-collapse: collapse; border-spacing: 0px;" border="0" cellpadding="0" cellspacing="0" width="520">
+                                    <tbody>
+                                        <tr>
+                                            <td style="font-family: Arial, serif; font-size: 11pt; width: 260px; line-height: 14pt;" valign="top" width="260">
+                                            <span style="font-size: 12pt; line-height: 16pt; font-family: Arial; color: rgb(46, 46, 46);">
+                                            Marketing and Communications<br>
+                                            College of Education<br>
+                                            1215 University of Oregon<br>
+                                            Eugene, OR 97403-1215
+                                            </span>
+                                            </td>
+                                            <td style="width: 34px;" width="34">
+                                            <br>
+                                            </td>
+                                            <td valign="top" width="226">
+                                            <table style="border-collapse: collapse; border-spacing: 0px;" border="0" cellpadding="0" cellspacing="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td style="font-family: Arial, serif; font-size: 12pt; color: #8e2e2e;" width="200">
+                                                        <a href="https://education.uoregon.edu/" target="_blank" style="text-decoration: none;">
+                                                        <span style="font-size: 12pt; font-family: Arial, serif; color: rgb(142, 46, 46);">
+                                                        <strong>
+                                                        COE Home page &raquo;
+                                                        </strong>
+                                                        </span>
+                                                        </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="height: 10px;" height="10" width="200">
+                                                        <br>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="font-family: Arial, serif; font-size: 11pt; color: #8e2e2e;" width="250">
+                                                        <a href="http://www.flickr.com/uoeducation" target="_blank" style="text-decoration: none;">
+                                                        <span style="font-size: 12pt; font-family: Arial, serif; color: rgb(142, 46, 46);">
+                                                        <strong>
+                                                        COE photography &raquo;
+                                                        </strong>
+                                                        </span>
+                                                        </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="height: 10px;" height="10" width="200">
+                                                        <br>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="font-family: Arial, serif; font-size: 11pt; color: #8e2e2e;" width="250">
+                                                        <a href="mailto:edmatters@uoregon.edu" target="_blank" style="text-decoration: none;">
+                                                        <span style="font-size: 12pt; font-family: Arial, serif; color: rgb(142, 46, 46);">
+                                                        <strong>
+                                                        E-mail <em>Ed Matters</em> &raquo;
+                                                        </strong>
+                                                        </span>
+                                                        </a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </td>
+                    <td style="width: 30px;" width="30">
+                    <br>
+                    </td>
+                    <td style="width: 10px;" width="10">
+                    <br>
+                    </td>
+                </tr>
+                <tr bgcolor="ffd83b" height="45">
+                    <td height="45" width="10">
+                    <br>
+                    </td>
+                    <td height="45" width="30">
+                    <br>
+                    </td>
+                    <td height="45" width="520">
+                    <br>
+                    </td>
+                    <td height="45" width="30">
+                    <br>
+                    </td>
+                    <td height="45" width="10">
+                    <br>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
