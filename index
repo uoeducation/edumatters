@@ -10,8 +10,35 @@
 
             }
 
+            h1 {
+                text-decoration: none;
+                font-size: 24pt;
+                font-family: Tahoma, sans-serif;
+                color: rgb(142, 46, 46);
+            }
+
+            h2 {
+                font-family: Tahoma, Arial, sans-serif;
+                font-size: 18pt;
+                margin: 0px;
+                padding: 0px;
+                letter-spacing: 1pt;
+                color: #2e2e2e;
+            }
+
+            a {
+                text-decoration: none;
+                color: #8e2e2e;
+                font-weight: 600;
+            }
+
             p {
-                
+                margin: 0;
+            }
+
+            body {
+                 margin: 0px;
+                 padding: 0px;
             }
 
             #container {
@@ -45,39 +72,148 @@
                 margin-top: 30px;
             }
 
-            #taglinecopy {
-                margin: .5em 0;
-            }
-
-            .yellow {
-                background: #ffd83b;
+            #alert {
+                background: #8e2e2e;
                 padding: 40px;
-            }
-
-            .dashed {
-                border-top: dashed 1px #2e2e2e;
-                border-bottom: dashed 1px #2e2e2e;
-            }
-
-            .bodycopy {
-                font-family: Cambria, Palatino, serif;
-                font-size: 14pt;
-                line-height: 14pt;
             }
 
             .gray {
                 color: rgb(46, 46, 46);
             }
 
+            .yellow {
+                background: #ffd83b;
+                padding: 40px;
+                clear: both;
+            }
+
+            .dashed-bottom {
+                border-bottom: dashed 1px #2e2e2e;
+                padding-bottom: .5em;
+            }
+
+            .dashed-top {
+                border-top: dashed 1px #2e2e2e;
+                padding-top: .5em;
+            }
+
+            .story-col {
+                width: 580px;
+                float: left;
+                margin: 0;
+                background: #ede9e0;
+            }
+
+            .story-col-hor {
+                margin: 0 10px;
+            }
+
+            .link {
+                text-decoration: none;
+                color: #8e2e2e;
+                font-weight: 600;
+            }
+
+            .continue {
+                font-size: 14pt;
+                font-family: Arial, sans-serif;
+                color: rgb(142, 46, 46);
+            }
+
+            .body {
+                line-height: 21pt;
+            }
+
+            .copy {
+                font-family: Cambria, Palatino, serif;
+                font-size: 14pt;
+            }
+
+            .arrow {
+                font-size: 19pt;
+            }
+
+            .left {
+                float: left;
+            }
+
+            .right {
+                float: right;
+            }
+
+            .art-vert {
+                border: 0px none;
+                padding: 0px;
+                margin: 0;
+                float: left;
+                width: 290px;
+            }
+
+            .art-hori {
+                width: 580px;
+                border: 0;
+                padding: 0;
+                margin: 0;
+                float: left;
+            }
+
+            .shadow {
+                 padding: 0;
+                 border: 0;
+                 height: 30px;
+                 width: 290px;
+            }
+
+            .copywrap {
+                padding: 0 20px 20px 20px;
+            }
+
+            .story-1 {
+                clear: both;
+            }
+
+            .icon {
+                 border: 0;
+                 height: 36px;
+                 width: 36px;
+            }
+
+            .three-col {
+                width: 28%;
+                float: left;
+                padding-left: 40px;
+            }
+
+            .three-col:first-of-type {
+                padding: 0;
+            }
+
+            .col-copy {
+                font-size: 11pt;
+                font-family: Calibri, Arial, sans-serif;
+            }
+
+            .three-col p {
+                       margin: 1em 0 0 0;
+            }
+
+            .three-col-footer {
+                clear: both;
+            }
+
+            .clearfix {
+                clear: both;
+            }
+
         </style>
 
     </head>
 
-    <body leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" style="margin: 0px; padding: 0px;" marginheight="0" marginwidth="0">
+    <body leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" marginheight="0" marginwidth="0">
 
         <div id="container">
             <!-- MASTHEAD ###################################################################//-->
-            <div class="yellow">
+            <header class="yellow">
                 <div>
                     <a href="https://education.uoregon.edu/" target="_blank">
                         <img id="logo" alt="University of Oregon College of Education logo" src="http://pages.uoregon.edu/edmatters/media/skin/UO_COE_logo_stack_black.png">
@@ -86,15 +222,280 @@
                     <img id="masthead" alt="Education Matters masthead" src="http://pages.uoregon.edu/edmatters/media/skin/masthead.png">
                 </div>
 
-                <div id="tagline" class="dashed">
-                    <p id="taglinecopy" class="bodycopy">
+                <div id="tagline" class="dashed-bottom dashed-top">
+                    <p id="taglinecopy" class="body copy">
                         <em>
                             The newsletter of the University of Oregon College of Education
                         </em>
                     </p>
                 </div>
+            </header>
+            <div id="alert">
+
+                <img alt="sunflower icon" src="http://pages.uoregon.edu/edmatters/media/issues/2014/apr/sunflower-w.png" border="0" height="47" width="48" style="float: left;">
+
+                <div style="float: left; padding: 0 1em;">
+                    <a href="http://uocoe.me/1efw79k" target="_blank" style="text-decoration: none;">
+                        <span style="font-size: 32pt; font-family: Arial, sans-serif; color: rgb(255, 255, 255);">
+                        <strong>
+                        VOTE
+                        </strong>
+                        </span>
+                    </a>
+                </div>
+
+                <div style="line-height: 1.3em; padding: .25em 0 .25em 1em;">
+                    <a href="http://uocoe.me/1efw79k" target="_blank" style="text-decoration: none;">
+                        <span style="font-size: 11pt; font-family: Arial; color: rgb(255, 255, 255);">
+                            for Edison Elementary's Schoolhouse Garden to get a Seeds of Change grant!
+                        <span style="font-size: 9pt; color: rgb(225, 225, 225);">
+                        <em>*no registration</em>
+                        </span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div id="story-1">
+                <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/left.png" border="0" height="10" width="10" class="left">
+
+                <div class="story-col">
+                    <img alt="" src="http://pages.uoregon.edu/edmatters/media/issues/2014/apr/adams.jpg"  class="art-vert" height="400">
+
+                    <img src="http://pages.uoregon.edu/edmatters/media/skin/shadow.png" class="shadow">
+
+                    <div class="copywrap">
+                        
+                        <h1>
+                            <a href="http://uocoe.me/em0414f1" target="_blank">
+                            Teaching children philosophy
+                            </a>
+                        </h1>
+                        
+                        <p class="body copy">
+                            Think kids are just learning facts and figures? Think again. Thanks to a college course, small people are tackling the big questions.
+                        </p>
+
+                        <a href="http://uocoe.me/em0414f1" target="_blank" class="continue">
+                        CONTINUE READING
+                        <span class="arrow">
+                        &raquo;
+                        </span>
+                        </a>
+                    </div>
+                </div>
+
+                <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/right.png" border="0" height="10" width="10" class="right">
+            </div>
+            <div class="yellow">
+                <div class="three-col">
+                    <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/calendar.png" class="icon">
+                
+                    <h2 class="dashed-bottom">
+                    EVENTS
+                    </h2>
+
+                    <p class="col-copy">
+                        <a href="http://uocoe.me/em0414e0" target="_blank">
+                        Through April
+                        </a>
+                        <br/>
+                        Autism Awareness Month
+                    </p>
+
+                    <p class="col-copy">
+                        <a href="http://uocoe.me/em0214e3" target="_blank">
+                        April 28-29
+                        </a>
+                        <br/>
+                        Center for Equity Promotion Conference: Strong Global Communities (UO Ford Alumni Center)
+                    </p>
+
+                    <p class="col-copy">
+                        <a href="http://uocoe.me/em0414e2" target="_blank">
+                        Through July 27                                                
+                        </a>
+                        <br/>
+                        WPA Impressions: The Reality of the American Dream (Schnitzer Museum of Art)
+                    </p>
+
+                    <p class="col-copy">
+                        <a href="http://uocoe.me/em0414e3" target="_blank" style="text-decoration: none;">
+                        May 7-10
+                        </a>
+                        <br>
+                        ASUO Street Faire and
+                        <a href="http://uocoe.me/em0414e4" target="_blank" style="text-decoration: none;">
+                        Willamette Valley Music Festival
+                        </a>
+                    </p>
+                </div>
+
+                <div class="three-col">
+                    <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/bio.png" class="icon">
+
+                    <h2 class="dashed-bottom">
+                    PEOPLE
+                    </h2>
+
+                    <p class="col-copy">
+                        Remembering longtime COE supporter
+                        <a href="http://uocoe.me/em0414p1" target="_blank">
+                        Don Parr
+                        </a>
+                    </p>
+                        
+                    <p class="col-copy">
+                        Why student troupe
+                        <a href="http://uocoe.me/em0414p2" target="_blank">
+                        Rehearsals for Life
+                        </a>
+                        appeals to COE students
+                    </p>
+
+                    <p class="col-copy">
+                        <a href="http://uocoe.me/em0414p3" target="_blank">
+                        Judy Newman
+                        </a>
+                        honored by United Way
+                    </p>
+
+                    <p class="col-copy">
+                        <a href="http://uocoe.me/em0414p5" target="_blank">
+                        Krista Chronister's
+                        </a>
+                        study on abusive relationships
+                    </p>
+
+                    <p class="col-copy">
+                        <a href="http://uocoe.me/em0414p6" target="_blank">
+                        Gary Ferrington
+                        </a>
+                        helps out SOMD
+                    </p>
+
+                    <p class="col-copy">
+                        Students build
+                        <a href="http://uocoe.me/em0414p7" target="_blank">
+                        basketball courts
+                        </a>
+                        in the Dominican Republic
+                    </p>
+                </div>
+
+                <div class="three-col">
+                    <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/commentround.png" class="icon">
+
+                    <h2 class="dashed-bottom">
+                    TWEETS
+                    </h2>
+
+                    <p class="col-copy">
+                        Oregon sprinter and FHS major
+                        <a href="http://uocoe.me/em0414t1" target="_blank" style="text-decoration: none;">
+                        Mike Berry
+                        </a>
+                        makes a difference off the track, too
+                    </p>
+
+                    <p class="col-copy">
+                        Congratulations graduate!
+                        <a href="http://uocoe.me/em0414t2" target="_blank" style="text-decoration: none;">
+                        11 reasons
+                        </a>
+                        why I will never hire you
+                    </p>
+
+                    <p class="col-copy">
+                        Future school psychologists: UO has 4th-cheapest high-quality program,
+                        <a href="http://uocoe.me/em0414t3" target="_blank" style="text-decoration: none;">
+                        report says
+                        </a>
+                    </p>
+
+                    <p class="col-copy">
+                        <a href="http://uocoe.me/em0414t4" target="_blank" style="text-decoration: none;">
+                        18 things
+                        </a>
+                        highly creative people do differently
+                    </p>
+
+                    <p class="col-copy">
+                        Autism Society of Oregon's
+                        <a href="http://uocoe.me/em0414t5" target="_blank" style="text-decoration: none;">
+                        Walk-a-Thon
+                        </a>
+                        Sunday, April 27 in PDX #AutismAwareness
+                    </p>
+                </div>
+
+                <div class="three-col-footer">
+                    <div class="three-col">
+                        <p class="col-copy dashed-top">
+                            <a href="http://www.twitter.com/uoeducation" target="_blank" style="text-decoration: none;">
+                            MORE TWEETS &raquo;
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="three-col">
+                        <p class="col-copy dashed-top">
+                            <a href="https://education.uoregon.edu/announcements" target="_blank">
+                            MORE NEWS &raquo;
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="three-col">
+                        <p class="col-copy dashed-top">
+                            <a href="https://education.uoregon.edu/calendar" target="_blank">
+                            MORE EVENTS &raquo;
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+            <div id="story-2">
+                <img src="http://pages.uoregon.edu/edmatters/media/skin/left.png" class="left">
+                
+                <a href="http://uocoe.me/em0214f2" target="_blank">
+                <img alt="" src="http://pages.uoregon.edu/edmatters/media/issues/2014/apr/russia-visit.jpg" height="387" class="art-hori">
+                </a>
+
+                <img src="http://pages.uoregon.edu/edmatters/media/skin/right.png" border="0" height="10" width="10">
+
+                <div class="story-col story-col-hor">
+                    <div class="copywrap">
+                        <h1>
+                        <a href="http://uocoe.me/em0414f2" target="_blank">
+                        Russians among us
+                        </a>
+                        </h1>
+                        
+                        <p class="body copy">
+                        The Family and Human Services program recently hosted students and faculty from a Russian university. The group is focused on child welfare. Come June, the UO students plan to complete the exchange by traveling to Russia.
+                        </p>
+                        
+                        <a href="http://uocoe.me/em0414f2" target="_blank" class="continue">
+                        CONTINUE READING
+                        <span class="arrow">
+                        &raquo;
+                        </span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
+
+
+
+
+
+
+
+
+
 
             <table id="table" align="center" cellpadding="0" cellspacing="0">
                 <tbody>
