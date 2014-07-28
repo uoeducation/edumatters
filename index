@@ -1,8 +1,14 @@
 <html>
     <head>
+        <title>
+            Summer 2014&mdash;Education Matters
+        </title>
+        
         <meta name="viewport" content="initial-scale=1">
 
-        <link  href="style.css" rel="stylesheet"type="text/css">
+        <link  href="http://pages.uoregon.edu/edmatters/style/main.css" rel="stylesheet"type="text/css">
+
+        <link href="http://pages.uoregon.edu/edmatters/style/14sum.css" rel="stylesheet" type="text/css">
     </head>
 
     <body leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" marginheight="0" marginwidth="0">
@@ -19,7 +25,10 @@
                 <div id="tagline" class="dashed-bottom dashed-top">
                     <p id="taglinecopy" class="body copy">
                         <em>
-                            The newsletter of the University of Oregon College of Education
+                            <span class="mobile-invisible">
+                            The newsletter of the
+                            </span>
+                            University of Oregon College of Education
                         </em>
                     </p>
                 </div>
@@ -55,86 +64,80 @@
             </div>
 
             <div id="story-1">
-                <div class="story-col">
-                    <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/left.png" class="corner left">
+                <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/left.png" class="corner left">
 
-                    <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/right.png" class="corner right">
+                <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/right.png" class="corner right">
 
-                    <div class="story-wrapper">
-                        <div id="art-story-1" class="story-col-left">
-                            <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/shadow.png" class="shadow">
+                <div class="story-wrapper">
+                    <div id="art-story-1">
+                        <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/shadow.png" class="shadow">
 
-                            <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/gradient.png" class="gradient">
-                        </div>
-
-                        <div class="story-col-right">
-                            <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/shadow.png" class="shadow">
-
-                            <div class="story-wrapper" style="float: left;">
-                                <h1>
-<!--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
-
-                                    STORY-1 HEADLINE LINK
-                                    The address that is the
-                                    hyper-text reference
-                                    attribute below is the
-                                    location to which a user's
-                                    browser will be directed when
-                                    the user clicks on the
-                                    headline for story-1.
-
-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
-                                    <a href="http://uocoe.me/em0414f1" target="_blank">
-<!--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
-
-                                    STORY-1 HEADLINE
-                                    The text that follows is the
-                                    headline for story-1.
-
-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
-                                    Teaching children philosophy
-                                    </a>
-                                </h1>
-                                
-                                <p class="body copy">
-<!--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
-
-                                    STORY-1 BODY
-                                    The text that follows is the
-                                    body copy for story-1.
-
-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
-                                    Think kids are just learning facts and figures? Think again. Thanks to a college course, small people are tackling the big questions.
-                                </p>
-
-                                <p class="body copy margin-tb">
-<!--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
-
-                                    STORY-1 CONTINUE LINK
-                                    The address that is the
-                                    hyper-text reference
-                                    attribute below is the
-                                    location to which a user's
-                                    browser will be directed when
-                                    the user clicks on the
-                                    "continue reading" link for
-                                    story-1.
-
-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
-                                    <a href="http://uocoe.me/em0414f1" target="_blank" class="continue">
-                                    CONTINUE READING
-                                    <span class="arrow">
-                                    &raquo;
-                                    </span>
-                                    </a>
-                                </p>
-
-                                <div class="story-end clearfix"></div>
-                            </div>
-                        </div>
-
-                        <div class="clearfix"></div>
+                        <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/gradient-hori.png" class="gradient-hori">
                     </div>
+
+                    <div class="story-wrapper horizontal-wrap">
+                        <h1>
+<!--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+                            STORY-1 HEADLINE LINK
+                            The address that is the
+                            hyper-text reference
+                            attribute below is the
+                            location to which a user's
+                            browser will be directed when
+                            the user clicks on the
+                            headline for story-3.
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
+                            <a href="http://uocoe.me/em0714f1" target="_blank">
+<!--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+                            STORY-3 HEADLINE
+                            The text that follows is the
+                            headline for story-3.
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
+                            Just 'do it
+                            </a>
+                        </h1>
+                        
+                        <p class="body copy">
+<!--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+                            STORY-1 BODY
+                            The text that follows is the
+                            body copy for story-1.
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
+                            It's not a mid-life crisis, and she didn't lose a bet. Learn why FHS Director Shoshana Kerewsky auctioned off her summer hairstyle, and how it will help students. (VIDEO)
+                        </p>
+                        
+                        <p class="margin-tb">
+<!--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+                            STORY-3 CONTINUE LINK
+                            The address that is the
+                            hyper-text reference
+                            attribute below is the
+                            location to which a user's
+                            browser will be directed when
+                            the user clicks on the
+                            "continue reading" link for
+                            story-3.
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
+                            <a href="http://uocoe.me/em0714f1" target="_blank" class="continue">
+                            CONTINUE READING
+                            <span class="arrow">
+                            &raquo;
+                            </span>
+                            </a>
+                        </p>
+
+                        <div class="story-end clearfix"></div>
+                    </div>
+
+                    <div class="clearfix"></div>
                 </div>
             </div>
 
@@ -161,37 +164,35 @@
 /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
 
                     <p class="col-copy">
-                        <a href="http://uocoe.me/em0414e0" target="_blank">
-                        Through April
+                        <a href="http://uocoe.me/em0714e1" target="_blank">
+                        Aug. 16
                         </a>
                         <br/>
-                        Autism Awareness Month
+                        UO Summer Commencement
                     </p>
 
                     <p class="col-copy">
-                        <a href="http://uocoe.me/em0214e3" target="_blank">
-                        April 28-29
+                        <a href="http://uocoe.me/em0714e2" target="_blank">
+                        Aug. 30
                         </a>
                         <br/>
-                        Center for Equity Promotion Conference: Strong Global Communities (UO Ford Alumni Center)
+                        Ducks football home opener (vs. South Dakota)
                     </p>
 
                     <p class="col-copy">
-                        <a href="http://uocoe.me/em0414e2" target="_blank">
-                        Through July 27                                                
+                        <a>
+                        Sept. 2                                                
                         </a>
                         <br/>
-                        WPA Impressions: The Reality of the American Dream (Schnitzer Museum of Art)
+                        Dean Kamphaus' first day
                     </p>
 
                     <p class="col-copy">
-                        <a href="http://uocoe.me/em0414e3" target="_blank" style="text-decoration: none;">
-                        May 7-10
+                        <a>
+                        Sept. 26
                         </a>
                         <br>
-                        ASUO Street Faire and
-                        <a href="http://uocoe.me/em0414e4" target="_blank" style="text-decoration: none;">
-                        Willamette Valley Music Festival
+                        COE Welcome Day (formerly COE Orientation)
                         </a>
                     </p>
                 </div>
@@ -218,48 +219,44 @@
 /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
 
                     <p class="col-copy">
-                        Remembering longtime COE supporter
-                        <a href="http://uocoe.me/em0414p1" target="_blank">
-                        Don Parr
-                        </a>
+                        <a href="http://uocoe.me/em0714p1" target="_blank">Leilani Sabzalian</a> wins Spencer Fellowship                        
                     </p>
                         
                     <p class="col-copy">
-                        Why student troupe
-                        <a href="http://uocoe.me/em0414p2" target="_blank">
-                        Rehearsals for Life
-                        </a>
-                        appeals to COE students
+                        2013-14 COE faculty/staff/student
+                        <a href="http://uocoe.me/em0714p2" target="_blank">
+                        honors and awards
+                        </a>                        
                     </p>
 
                     <p class="col-copy">
-                        <a href="http://uocoe.me/em0414p3" target="_blank">
-                        Judy Newman
+                        Hear COE profs on OPB's
+                        <a href="http://uocoe.me/em0714p3" target="_blank">
+                        Class of 2025
                         </a>
-                        honored by United Way
+                        radio doc
                     </p>
 
                     <p class="col-copy">
-                        <a href="http://uocoe.me/em0414p5" target="_blank">
-                        Krista Chronister's
+                        CFT master's student named<a href="http://uocoe.me/em0714p4" target="_blank">
+                        Tillman Military Scholar
                         </a>
-                        study on abusive relationships
+                       
+                    </p>
+                    
+                    <p class="col-copy">
+                        Global and Online Education busily educating 
+                        <a href="http://uocoe.me/em0714p5" target="_blank">
+                        Chinese scholars
+                        </a>                        
+                    </p>
+                    <p class="col-copy">
+                         <a href="http://uocoe.me/em0714p6" target="_blank">David Conley
+                         </a>   
+                        cited in Daily Edventures
+                                             
                     </p>
 
-                    <p class="col-copy">
-                        <a href="http://uocoe.me/em0414p6" target="_blank">
-                        Gary Ferrington
-                        </a>
-                        helps out SOMD
-                    </p>
-
-                    <p class="col-copy">
-                        Students build
-                        <a href="http://uocoe.me/em0414p7" target="_blank">
-                        basketball courts
-                        </a>
-                        in the Dominican Republic
-                    </p>
                 </div>
 
                 <div class="three-col">
@@ -284,49 +281,42 @@
 /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
 
                     <p class="col-copy">
-                        Oregon sprinter and FHS major
-                        <a href="http://uocoe.me/em0414t1" target="_blank" style="text-decoration: none;">
-                        Mike Berry
-                        </a>
-                        makes a difference off the track, too
+                        <a href="http://uocoe.me/em0714t1" target="_blank" style="text-decoration: none;">
+                        Quacka Quacka</a>, from a 5th-grade class in Chino, CA. Eat your heart out, Shakira.                      
                     </p>
 
                     <p class="col-copy">
-                        Congratulations graduate!
-                        <a href="http://uocoe.me/em0414t2" target="_blank" style="text-decoration: none;">
-                        11 reasons
+                        <a href="http://uocoe.me/em0714t2" target="_blank" style="text-decoration: none;">
+                        Useful tools and apps
                         </a>
-                        why I will never hire you
+                         to help you assemble your classroom curriculum 
                     </p>
 
                     <p class="col-copy">
-                        Future school psychologists: UO has 4th-cheapest high-quality program,
-                        <a href="http://uocoe.me/em0414t3" target="_blank" style="text-decoration: none;">
-                        report says
-                        </a>
+                        2014 <a href="http://uocoe.me/em0714t3" target="_blank" style="text-decoration: none;">COE Alumni Awardees  
+                        </a>                        
                     </p>
-
+                    
                     <p class="col-copy">
-                        <a href="http://uocoe.me/em0414t4" target="_blank" style="text-decoration: none;">
-                        18 things
+                        Non-verbal teen with autism gives 
+                        <a href="http://uocoe.me/em0714t4" target="_blank" style="text-decoration: none;">
+                        graduation address
                         </a>
-                        highly creative people do differently
+                        at school
                     </p>
-
+                    
                     <p class="col-copy">
-                        Autism Society of Oregon's
-                        <a href="http://uocoe.me/em0414t5" target="_blank" style="text-decoration: none;">
-                        Walk-a-Thon
-                        </a>
-                        Sunday, April 27 in PDX #AutismAwareness
+                        <a href="http://twitter.com/UOSOMD" target=_"blank" style="text-decoration: none;">@uosomd</a> professor <a href="http://uocoe.me/em0714t5" target=_"blank" style="text-decoration: none;">jazzed</a> about writing a score for 10K race <a href="http://twitter.com/oregon14wjc" target=_"blank" style="text-decoration: none;">@oregon14wjc</a>  
+                        
                     </p>
+                    
                 </div>
 
                 <div class="clearfix" style="height: 20px;"></div>
 
                 <p class="three-col col-copy dashed-top">
-                    <a href="http://www.twitter.com/uoeducation" target="_blank" class="continue">
-                    MORE TWEETS
+                    <a href="https://education.uoregon.edu/calendar" target="_blank" class="continue">
+                    MORE EVENTS
                     <span class="arrow">&raquo;</span>
                     </a>
                 </p>
@@ -339,8 +329,8 @@
                 </p>
 
                 <p class="three-col col-copy dashed-top">
-                    <a href="https://education.uoregon.edu/calendar" target="_blank" class="continue">
-                    MORE EVENTS
+                    <a href="http://www.twitter.com/uoeducation" target="_blank" class="continue">
+                    MORE TWEETS
                     <span class="arrow">&raquo;</span>
                     </a>
                 </p>
@@ -372,13 +362,13 @@
                                     following headline.
 
 /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
-                                    <a href="#" target="_blank">
+                                    <a href="http://uocoe.me/em0714g1" target="_blank">
 <!--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
 
                                     IMAGE GRID PIECE 1 HEADLINE
 
 /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
-                                    Mimicking Birds woos Portland with private show
+                                    FHS students brave a trip to Russia
                                     </a>
                                 </p>
                             </div>
@@ -401,13 +391,13 @@
                                     following headline.
 
 /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
-                                    <a href="#" target="_blank">
+                                    <a href="http://uocoe.me/em0714g2" target="_blank">
 <!--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
 
                                     IMAGE GRID PIECE 2 HEADLINE
 
 /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
-                                    Headlines are easy to fit, if you're willing to be flexible
+                                    Undergrad research with Mariam Admasu (VIDEO)
                                     </a>
                                 </p>
                             </div>
@@ -430,13 +420,13 @@
                                     following headline.
 
 /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
-                                    <a href="#" target="_blank">
+                                    <a href="http://uocoe.me/coepv14" target="_blank">
 <!--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
 
                                     IMAGE GRID PIECE 3 HEADLINE
 
 /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
-                                    Talking to animals makes humans smarter says scientist
+                                    Watch 2014 COE promo "Potential" (VIDEO)
                                     </a>
                                 </p>
                             </div>
@@ -457,13 +447,13 @@
                                     following headline.
 
 /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
-                                    <a href="#" target="_blank">
+                                    <a href="http://uocoe.me/uocoegrad" target="_blank">
 <!--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
 
                                     IMAGE GRID PIECE 4 HEADLINE
 
 /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
-                                    Cody, you can fit eight to twelve words in each headline
+                                    Photos, video of 2014 grads
                                     </a>
                                 </p>
                             </div>
@@ -513,81 +503,89 @@
                 <div class="clearfix"></div>
             </div>
 
+           
+            
             <div id="story-3">
-                <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/left.png" class="corner left">
+                <div class="story-col">
+                    <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/left.png" class="corner left">
 
-                <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/right.png" class="corner right">
+                    <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/right.png" class="corner right">
 
-                <div class="story-wrapper">
-                    <div id="art-story-3">
-                        <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/shadow.png" class="shadow">
+                    <div class="story-wrapper">
+                        <div id="art-story-3" class="story-col-left">
+                            <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/shadow.png" class="shadow">
 
-                        <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/gradient-hori.png" class="gradient-hori">
+                            <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/gradient.png" class="gradient">
+                        </div>
+
+                        <div class="story-col-right">
+                            <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/shadow.png" class="shadow">
+
+                            <div class="story-wrapper" style="float: left;">
+                                <h1>
+<!--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+                                    STORY-1 HEADLINE LINK
+                                    The address that is the
+                                    hyper-text reference
+                                    attribute below is the
+                                    location to which a user's
+                                    browser will be directed when
+                                    the user clicks on the
+                                    headline for story-1.
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
+                                    <a href="http://uocoe.me/em0714f2" target="_blank">
+<!--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+                                    STORY-1 HEADLINE
+                                    The text that follows is the
+                                    headline for story-1.
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
+                                    Meet the dean
+                                    </a>
+                                </h1>
+                                
+                                <p class="body copy">
+<!--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+                                    STORY-1 BODY
+                                    The text that follows is the
+                                    body copy for story-1.
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
+                                    Randy Kamphaus, the COE's third dean in as many years, will take over Sept. 2. We found out how "berry" much he's looking forward to his new life in Oregon.
+                                </p>
+
+                                <p class="body copy margin-tb">
+<!--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+                                    STORY-1 CONTINUE LINK
+                                    The address that is the
+                                    hyper-text reference
+                                    attribute below is the
+                                    location to which a user's
+                                    browser will be directed when
+                                    the user clicks on the
+                                    "continue reading" link for
+                                    story-1.
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
+                                    <a href="http://uocoe.me/em0714f2" target="_blank" class="continue">
+                                    CONTINUE READING
+                                    <span class="arrow">
+                                    &raquo;
+                                    </span>
+                                    </a>
+                                </p>
+
+                                <div class="story-end clearfix"></div>
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
                     </div>
-
-                    <div class="story-wrapper horizontal-wrap">
-                        <h1>
-<!--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
-
-                            STORY-3 HEADLINE LINK
-                            The address that is the
-                            hyper-text reference
-                            attribute below is the
-                            location to which a user's
-                            browser will be directed when
-                            the user clicks on the
-                            headline for story-3.
-
-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
-                            <a href="http://uocoe.me/em0414f3" target="_blank">
-<!--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
-
-                            STORY-3 HEADLINE
-                            The text that follows is the
-                            headline for story-3.
-
-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
-                            Native Opportunities
-                            </a>
-                        </h1>
-                        
-                        <p class="body copy">
-<!--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
-
-                            STORY-3 BODY
-                            The text that follows is the
-                            body copy for story-3.
-
-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
-                            Research by doc students Jill Dolata and Allison Wilson could have a major impact on how tribal communities manage early childhood education.
-                        </p>
-                        
-                        <p class="margin-tb">
-<!--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
-
-                            STORY-3 CONTINUE LINK
-                            The address that is the
-                            hyper-text reference
-                            attribute below is the
-                            location to which a user's
-                            browser will be directed when
-                            the user clicks on the
-                            "continue reading" link for
-                            story-3.
-
-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
-                            <a href="http://uocoe.me/em0414f3" target="_blank" class="continue">
-                            CONTINUE READING
-                            <span class="arrow">
-                            &raquo;
-                            </span>
-                            </a>
-                        </p>
-
-                        <div class="story-end clearfix"></div>
-                    </div>
-
-                    <div class="clearfix"></div>
                 </div>
             </div>
 
@@ -612,14 +610,14 @@
                         Issue II
 
 /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
-                        Volume XXI &bull; Issue II
+                        Volume XXI &bull; Issue III
                         </strong>
                     </div>
 
                     <div class="mobileonly clearfix"></div>
 
                     <div class="right footer-type mobile-left">
-                        <a href="http://pages.uoregon.edu/edmatters/archive/" target="_blank">
+                        <a href="http://pages.uoregon.edu/edmatters/archive" target="_blank">
                         Browse previous issues
                         </a>
                     </div>
@@ -635,18 +633,12 @@
                     footer section.
 
 /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
-                    Welcome to <em>Education Matters</em> for April 2014. Spring is here, and that makes us think of things that grow. Things that grow makes us think about our friends at Edison Elementary, just a few blocks south of campus. They're competing for a Seeds of Change grant to expand and improve their service-learning-related Schoolhouse Garden, but they need your vote. Just go to their
-                    <a href="http://uocoe.me/1efw79k" target="_blank">
-                    voting page
-                    </a>
-                    and click the button&mdash;no registration required.
+                    Thanks for checking out the summer issue of <em>Education Matters</em>. We've been working hard to keep up with how people consume content. Going forward the <a href="http://pages.uoregon.edu/edmatters">Web version</a> of this, including past issues, is now responsive; it will rearrange itself to fit nicely on your favorite device. Eventually the e-mail version may have this capability, but for now, phone or tablet users should refer to the Web edition for the best possible reading experience. Enjoy the rest of your summer!
+                    
                     <br/>
                     <br/>
-                    <em>Education Matters</em> is distributed about twice per term, with one summer issue. Click
-                    <a href="mailto:edmatters@uoregon.edu" target="_blank">
-                    here
-                    </a>
-                    or the "E-mail <em>Ed Matters</em>" link below to contact the editor; physical letters are always welcome at the mailing address below.
+                    <em>Education Matters</em> is distributed about twice per term, with one summer issue. Use
+                    the "E-mail <em>Education Matters</em>" link below to contact the editor; physical letters are always welcome at the mailing address below.
                     <br/>
                     <br/>
 <!--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
