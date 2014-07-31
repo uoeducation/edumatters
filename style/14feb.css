@@ -1,0 +1,54 @@
+
+/*//**//**//**//**//**//**//**//**//**//**//**
+
+    Declare paths to art
+
+*//**//**//**//**//**//**//**//**//**//**//**/
+
+#art-story-1 {
+    background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/feb/luella-crow.jpg) no-repeat 40% 30%;
+    height: 335px;
+}
+
+#art-story-2 {
+    background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/feb/nortec.jpg) no-repeat center 50%;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+#art-story-3 {
+    background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/feb/ccss-tag-cloud.jpg) no-repeat 0 85%;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+/*//**//**//**//**//**//**//**//**//**//**//**
+
+    Responsive style declarations that a web
+    browser applies to the page when the
+    criteria set forth in the media query are
+    met. In this case, when the viewing window
+    600px wide or smaller, the styles that
+    follow are applied.
+
+*//**//**//**//**//**//**//**//**//**//**//**/
+
+@media (max-width: 600px) {
+
+    #art-story-2 {
+        height: 200px;
+    }
+
+    #art-story-3 {
+        height: 200px;
+    }
+
+    #art-story-1 {
+        height: 395px;
+    }
+
+    #art-story-1 {
+        background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/feb/luella-crow.jpg) no-repeat 95% 0;
+    }
+
+}
