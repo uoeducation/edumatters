@@ -15,7 +15,7 @@ h1 {
 
 h2 {
     font-family: Tahoma, Arial, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin: 0px;
     padding: 0px;
     letter-spacing: .01em;
@@ -89,7 +89,8 @@ ul {
 
 #masthead {
     border: 0;
-    float: left;
+    float: right;
+    width: 396.5px;
 }
 
 #tagline {
@@ -361,16 +362,16 @@ ul {
         margin: 0 0 .5em 0;
     }
 
-    h2 {
-        font-size: 1.2em;
-    }
-
     #logo {
-        width: 2.9em;
+        height: auto;
+        width: 207px;
+        float: none;
+        padding: 1em 0;
     }
 
     #masthead {
-        width: 13.1em;
+        width: 100%;
+        height: auto;
     }
 
     #taglinecopy {
@@ -383,11 +384,11 @@ ul {
     }
 
     #tagline {
-        margin-top: 15px;
+        margin-top: 0;
     }
 
     .body {
-        line-height: 1.25em;
+        line-height: 1.5em;
     }
 
     .copy {
@@ -400,7 +401,7 @@ ul {
     }
 
     .continue {
-        font-size: .7em;
+        font-size: 1em;
     }
 
     .arrow {
@@ -408,15 +409,7 @@ ul {
     }
 
     .yellow {
-        padding: 20px;
-    }
-
-    .three-col {
-        margin-left: 20px;
-    }
-
-    .col-copy {
-        font-size: .8em;
+        padding: 1.5em 20px;
     }
 
     .image-grid {
@@ -471,6 +464,46 @@ ul {
     .gradient-hori {
         height: 30px;
         top: 155px;
+    }
+
+    .three-col {
+        margin: 3em auto 0 auto;
+    }
+
+    .three-col:first-of-type {
+        margin: 0 auto 0 auto;
+    }
+
+    .three-col-mobile {
+        display: block;
+        width: 100%;
+        float: none;
+    }
+
+    .story-col-left {
+        display: block;
+        width: 100%;
+        float: none;
+    }
+
+    .story-col-right {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    .icon {
+        margin: 0 15px 15px 0;
+        float: left;
+    }
+
+    .center-type {
+        text-align: left;
+        line-height: 48px;
+    }
+
+    .margin-tb {
+        margin: 1em 0;
     }
     
 }

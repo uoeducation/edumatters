@@ -8,7 +8,7 @@
 #art-story-1 {
     background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/sum/kerewsky.jpg) no-repeat 25% 10%;
     height: 300px;
-    margin-bottom: 10px;
+    margin-bottom: .5em;
 }
 
 #image-grid-piece-1 {
@@ -44,7 +44,7 @@
 
 #art-story-3 {
     background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/sum/kamphaus.jpg) no-repeat 75% 25%;
-    height: 330px;
+    height: 335px;
 }
 
 /*//**//**//**//**//**//**//**//**//**//**//**
@@ -62,12 +62,13 @@
 
     #art-story-1 {
         background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/sum/kerewsky.jpg) no-repeat 60% 20%;
-        height: 200px;
+        height: 250px;
     }
 
     #art-story-3 {
         background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/sum/kamphaus.jpg) no-repeat center 25%;
-        height: 330px;
+        height: 250px;
+        margin-bottom: .5em;
     }
 
     #image-grid-piece-2 {
@@ -76,7 +77,7 @@
 
     .gradient-hori {
         height: 15px;
-        top: 170px;
+        top: 220px;
     }
 
     .image-grid {
