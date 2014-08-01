@@ -1,0 +1,122 @@
+
+/*//**//**//**//**//**//**//**//**//**//**//**
+
+    Declare paths to art
+
+*//**//**//**//**//**//**//**//**//**//**//**/
+
+#art-story-1 {
+    background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/apr/adams.jpg) no-repeat 40% 30%;
+    height: 315px;
+}
+
+#art-story-2 {
+    background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/apr/russia-visit.jpg) no-repeat center 20%;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+#art-story-3 {
+    background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/apr/doc-students.jpg) no-repeat 25% center;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+/*//**//**//**//**//**//**//**//**//**//**//**
+
+    Alert Box
+    Remove the display:none; command that
+    follows in the #alert style declarations
+    to show the alert box on the page
+
+*//**//**//**//**//**//**//**//**//**//**//**/
+
+#alert {
+    display: block;
+}
+
+#alert-sunflower {
+     border: 0;
+     height: 47px;
+     width: 48px;
+     float: left;
+}
+
+#alert-sunflower-vote-box {
+    float: left;
+    padding: .5em 1em;
+}
+
+#alert-sunflower-vote {
+    font-size: 3em;
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: .8em;
+}
+
+#alert-sunflower-copy-box {
+    line-height: 1.25em;
+    padding: .5em 0 0 1em;
+}
+
+#alert-sunflower-copy {
+    font-size: .8em;
+    font-family: Arial;
+    color: rgb(255, 255, 255);
+}
+
+#alert-sunflower-copy-fineprint {
+    font-size: .8em;
+    color: rgb(225, 225, 225);
+}
+
+/*//**//**//**//**//**//**//**//**//**//**//**
+
+    Responsive style declarations that a web
+    browser applies to the page when the
+    criteria set forth in the media query are
+    met. In this case, when the viewing window
+    600px wide or smaller, the styles that
+    follow are applied.
+
+*//**//**//**//**//**//**//**//**//**//**//**/
+
+@media (max-width: 600px) {
+
+    #alert-sunflower {
+        width: 24px;
+        height: 24px;
+        display: none;
+    }
+
+    #alert-sunflower-vote-box {
+        padding: 0 .5em 0 0;
+        height: 4em;
+    }
+
+    #alert-sunflower-vote {
+        font-size: 1.5em;
+    }
+
+    #alert-sunflower-copy-box {
+        line-height: 1em;
+        padding: 0 0 .25em 1em;
+    }
+
+    #alert-sunflower-copy {
+        font-weight: 100;
+    }
+
+    #art-story-1 {
+        height: 335px;
+    }
+
+    #art-story-2 {
+        height: 200px;
+    }
+
+    #art-story-3 {
+        height: 200px;
+    }
+
+}
