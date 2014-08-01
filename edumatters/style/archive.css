@@ -1,0 +1,114 @@
+/*//**//**//**//**//**//**//**//**//**//**//**
+
+    Declare location of art for archive issues
+
+*//**//**//**//**//**//**//**//**//**//**//**/
+
+#archive-issue-1 {
+    background: url(http://pages.uoregon.edu/edmatters/media/issues/2013/nov/buckeye.jpg) no-repeat center 0;
+}
+
+#archive-issue-2 {
+    background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/feb/nortec.jpg) no-repeat center 0 ;
+}
+
+#archive-issue-3 {
+    background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/apr/russia-visit.jpg) no-repeat center 0;
+}
+
+#archive-issue-4 {
+    background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/sum/kerewsky.jpg) no-repeat center center;
+}
+
+/*//**//**//**//**//**//**//**//**//**//**//**
+
+    Element ID style declarations that
+    apply specifically to the archive page
+
+*//**//**//**//**//**//**//**//**//**//**//**/
+
+#archive-arrow-bump {
+	top: -25px;
+}
+
+/*//**//**//**//**//**//**//**//**//**//**//**
+
+    Class definitions, style declarations that
+    apply specifically to the archive page
+
+*//**//**//**//**//**//**//**//**//**//**//**/
+
+.year {
+    padding: 0 .2em;
+    background: #ffd83b;
+    display: inline;
+    text-shadow: none;
+    color: #2e2e2e;
+}
+
+.archive-headline {
+    padding: 40px;
+}
+
+.archive-headline a {
+    font-weight: 600;
+    text-shadow: #2e2e2e 2px 2px 1px;
+    font-size: 1.4em;
+    color: #FeFeFe;
+}
+
+.archive-headline h2 {
+    margin-bottom: .8em;
+}
+
+.archive-divider {
+    background: #2e2e2e;
+    height: 10px;
+}
+
+.archive-image-screen {
+    background: rgba(237, 233, 224, .5);
+}
+
+.archive-shadow {
+    padding: 0;
+    border: 0;
+    height: 15px;
+    z-index: 1;
+    float: left;
+    position: relative;
+    width: 100%;
+    top: -10px;
+}
+
+.archive-arrow {
+	position: relative;
+	z-index: 2;
+}
+
+/*//**//**//**//**//**//**//**//**//**//**//**
+
+    Responsive style declarations that a web
+    browser applies to the page when the
+    criteria set forth in the media query are
+    met. In this case, when the viewing window
+    600px wide or smaller, the styles that
+    follow are applied.
+
+*//**//**//**//**//**//**//**//**//**//**//**/
+
+@media (max-width: 600px) {
+
+	.archive-headline {
+	    padding: 20px;
+	}
+
+	.archive-headline a {
+	    font-size: 1em;
+	}
+
+	.archive-headline h2 {
+	    margin-bottom: .8em;
+	}
+
+}
