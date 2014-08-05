@@ -23,6 +23,16 @@ h2 {
     padding-bottom: .5em;
 }
 
+h3 {
+    font-family: Tahoma, Arial, sans-serif;    
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: .01em;
+    color: #2e2e2e;
+    padding-bottom: .5em;
+    font-size: 1.2em;
+}
+
 a {
     text-decoration: none;
     color: #8e2e2e;

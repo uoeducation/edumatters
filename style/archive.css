@@ -5,15 +5,15 @@
 *//**//**//**//**//**//**//**//**//**//**//**/
 
 #archive-issue-1 {
-    background: url(http://pages.uoregon.edu/edmatters/media/issues/2013/nov/buckeye.jpg) no-repeat center 0;
+    background: url(http://pages.uoregon.edu/edmatters/media/issues/2013/nov/buckeye.jpg) no-repeat center center;
 }
 
 #archive-issue-2 {
-    background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/feb/nortec.jpg) no-repeat center 0 ;
+    background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/feb/nortec.jpg) no-repeat center center;
 }
 
 #archive-issue-3 {
-    background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/apr/russia-visit.jpg) no-repeat center 0;
+    background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/apr/russia-visit.jpg) no-repeat center center;
 }
 
 #archive-issue-4 {
@@ -51,13 +51,11 @@
 }
 
 .archive-headline a {
-    font-weight: 600;
     text-shadow: #2e2e2e 2px 2px 1px;
-    font-size: 1.4em;
     color: #FeFeFe;
 }
 
-.archive-headline h2 {
+.archive-headline h3 {
     margin-bottom: .8em;
 }
 
@@ -98,17 +96,11 @@
 *//**//**//**//**//**//**//**//**//**//**//**/
 
 @media (max-width: 600px) {
-
 	.archive-headline {
 	    padding: 20px;
 	}
 
-	.archive-headline a {
-	    font-size: 1em;
-	}
-
-	.archive-headline h2 {
-	    margin-bottom: .8em;
-	}
-
+    h3 {
+        font-size: 1.1em;
+    }
 }

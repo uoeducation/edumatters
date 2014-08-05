@@ -7,7 +7,7 @@
 
 #art-story-1 {
     background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/feb/luella-crow.jpg) no-repeat 40% 30%;
-    height: 335px;
+    height: 395px;
 }
 
 #art-story-2 {
@@ -36,19 +36,23 @@
 @media (max-width: 600px) {
 
     #art-story-2 {
-        height: 200px;
+        height: 250px;
     }
 
     #art-story-3 {
-        height: 200px;
+        height: 250px;
     }
 
     #art-story-1 {
-        height: 395px;
+        height: 250px;
     }
 
     #art-story-1 {
-        background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/feb/luella-crow.jpg) no-repeat 95% 0;
+        background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/feb/luella-crow.jpg) no-repeat center 35%;
     }
 
+    .gradient-hori {
+        height: 15px;
+        top: 220px;
+    }
 }

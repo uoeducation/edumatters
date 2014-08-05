@@ -19,7 +19,7 @@
 
 #art-story-3 {
     background: url(http://pages.uoregon.edu/edmatters/media/issues/2013/nov/2013%2009%20EDMATTERS%20us%20news%20and%20world%20report%20cover.png) no-repeat 75% 0;
-    height: 332px;
+    height: 395px;
 }
 
 /*//**//**//**//**//**//**//**//**//**//**//**
@@ -34,17 +34,22 @@
 *//**//**//**//**//**//**//**//**//**//**//**/
 
 @media (max-width: 600px) {
-
     #art-story-1 {
-        height: 200px;
+        height: 250px;
+        background: url(http://pages.uoregon.edu/edmatters/media/issues/2013/nov/bonamici.jpg) no-repeat 30% 0;
     }
 
     #art-story-2 {
-        height: 200px;
+        height: 250px;
     }
 
     #art-story-3 {
-        height: 375px;
+        height: 250px;
+        background: url(http://pages.uoregon.edu/edmatters/media/issues/2013/nov/2013%2009%20EDMATTERS%20us%20news%20and%20world%20report%20cover.png) no-repeat center 0;
     }
 
+    .gradient-hori {
+        height: 15px;
+        top: 220px;
+    }
 }
