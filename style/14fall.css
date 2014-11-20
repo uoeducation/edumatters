@@ -1,0 +1,83 @@
+/*//**//**//**//**//**//**//**//**//**//**//**
+Declare paths to art
+*//**//**//**//**//**//**//**//**//**//**//**/
+#art-story-1 {
+	background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/fall/ksa-group.jpg) no-repeat 25% 10%;
+	height: 350px;
+	margin-bottom: .5em;
+}
+
+#image-grid-piece-1 {
+	background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/fall/horner.jpg) no-repeat 60% 50%;
+}
+
+#image-grid-piece-2 {
+	background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/fall/duck-thanks.jpg) no-repeat 55% 50%;
+}
+
+#image-grid-piece-3 {
+	background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/fall/bricker-squires.jpg) no-repeat 30% 50%;
+/*//**//**//**//**//**//**//**//**//**//**//**
+Turn the bottom row into one item, instead
+of two by removing the comment tags "/*"
+and "* /" from the display command that
+follows. Be sure to also remove the
+comment tags from the width command that
+is embedded in #image-grid-piece-4.
+*//**//**//**//**//**//**//**//**//**//**//**/
+/*display: none;*/
+}
+
+#image-grid-piece-4 {
+background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/fall/atika.jpg) no-repeat 50% 20%;
+/*width: 100%;*/
+}
+
+#art-story-3 {
+background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/fall/hep2.jpg) no-repeat 75% 15%;
+height: 400px;
+}
+
+.gradient-hori {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    bottom: 0;
+    float: left;
+    margin: 0 0 10px 0;
+    top: 275px;
+}
+
+/*//**//**//**//**//**//**//**//**//**//**//**
+Responsive style declarations that a web
+browser applies to the page when the
+criteria set forth in the media query are
+met. In this case, when the viewing window
+600px wide or smaller, the styles that
+follow are applied.
+*//**//**//**//**//**//**//**//**//**//**//**/
+@media (max-width: 600px) {
+	#art-story-1 {
+		background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/fall/ksa-group.jpg) no-repeat 60% 20%;
+		height: 250px;
+	}
+
+	#art-story-3 {
+		background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/fall/hep2.jpg) no-repeat center 25%;
+		height: 250px;
+		margin-bottom: .5em;
+	}
+
+	#image-grid-piece-2 {
+		background: url(http://pages.uoregon.edu/edmatters/media/issues/2014/sum/admasu.jpg) no-repeat 15% 50%;
+	}
+
+	.gradient-hori {
+		height: 15px;
+		top: 220px;
+	}
+
+	.image-grid {
+		height: 400px;
+	}
+}
