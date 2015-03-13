@@ -1,0 +1,120 @@
+/*//**//**//**//**//**//**//**//**//**//**//**
+Declare paths to art
+*//**//**//**//**//**//**//**//**//**//**//**/
+#art-story-1 {
+	background: url(http://pages.uoregon.edu/edmatters/media/issues/2015/winter/goode-ecs2.jpg) no-repeat 25% 10%;
+	height: 350px;
+	margin-bottom: .5em;
+}
+
+#image-grid-piece-1 {
+	background: url(http://pages.uoregon.edu/edmatters/media/issues/2015/winter/sans-effects-image-grid-1.jpg) no-repeat 0 0;
+}
+
+.image-grid-headline-1, .image-grid-headline-2 {
+	padding-top: 190px;
+}
+
+#image-grid-piece-2 {
+	background: url(http://pages.uoregon.edu/edmatters/media/issues/2015/winter/sans-effects-image-grid-2.jpg) no-repeat 0 0;
+}
+
+#image-grid-piece-3 {
+	background: url(http://pages.uoregon.edu/edmatters/media/issues/2015/winter/sans-effects-image-grid-3.jpg) no-repeat 0 0;
+
+
+/*//**//**//**//**//**//**//**//**//**//**//**
+Turn the bottom row into one item, instead
+of two by removing the comment tags "/*"
+and "* /" from the display command that
+follows. Be sure to also remove the
+comment tags from the width command that
+is embedded in #image-grid-piece-4.
+*//**//**//**//**//**//**//**//**//**//**//**/
+
+	/*display: none;*/
+}
+
+.image-grid-headline-3 {
+	padding-top: 160px;
+}
+
+#image-grid-piece-4 {
+	background: url(http://pages.uoregon.edu/edmatters/media/issues/2015/winter/sans-effects-image-grid-4.jpg) no-repeat 0 0;
+
+	/*width: 100%;*/
+}
+
+.image-grid-headline-4 {
+	padding-top: 90px;
+}
+
+#art-story-3 {
+	background: url(http://pages.uoregon.edu/edmatters/media/issues/2015/winter/usn-chart.jpg) no-repeat 75% 15%;
+	height: 400px;
+}
+
+.gradient-hori {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    bottom: 0;
+    float: left;
+    margin: 0 0 10px 0;
+    top: 275px;
+}
+
+/*//**//**//**//**//**//**//**//**//**//**//**
+Responsive style declarations that a web
+browser applies to the page when the
+criteria set forth in the media query are
+met. In this case, when the viewing window is
+600px wide or smaller, the styles that
+follow are applied.
+*//**//**//**//**//**//**//**//**//**//**//**/
+
+@media (max-width: 600px) {
+	#art-story-1 {
+		background: url(http://pages.uoregon.edu/edmatters/media/issues/2015/winter/goode-ecs2.jpg) no-repeat 20% 40%;
+		height: 250px;
+	}
+
+	#art-story-3 {
+		background: url(http://pages.uoregon.edu/edmatters/media/issues/2015/winter/usn-chart.jpg) no-repeat center 0;
+		height: 250px;
+		margin-bottom: .5em;
+	}
+
+	.image-grid-headline-1 {
+		padding-top: 103px;
+	}
+
+	#image-grid-piece-2 {
+		background: url(http://pages.uoregon.edu/edmatters/media/issues/2015/winter/sans-effects-image-grid-2.jpg) no-repeat 0 10%;
+	}
+
+	.image-grid-headline-2 {
+		padding-top: 76px;
+	}
+
+	#image-grid-piece-3 {
+		background: url(http://pages.uoregon.edu/edmatters/media/issues/2015/winter/sans-effects-image-grid-3.jpg) no-repeat 0 30%;
+	}
+
+	.image-grid-headline-3 {
+		padding-top: 76px;
+	}
+
+	.image-grid-headline-4 {
+		padding-top: 50px;
+	}
+
+	.gradient-hori {
+		height: 15px;
+		top: 220px;
+	}
+
+	.image-grid {
+		height: 400px;
+	}
+}
