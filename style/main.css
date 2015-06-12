@@ -74,7 +74,7 @@ ul {
 *//**//**//**//**//**//**//**//**//**//**//**/
 
 #alert {
-    background: #8e2e2e;
+    background: #a13020;
     padding: 40px;
     display: none;
 }
@@ -289,7 +289,7 @@ ul {
     font-size: 1.5em;
     letter-spacing: 0;
     line-height: 1.25em;
-    color: #8e2e2e;
+    color: #a13020;
     font-weight: 600;
     text-shadow: #dedede 1px 1px 0px;
 }
