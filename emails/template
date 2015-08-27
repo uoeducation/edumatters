@@ -1,0 +1,876 @@
+<html>
+
+    <!-- Everything in the <head> section will be stripped out in some clients, like Gmail in a web browser. //-->
+    <head>
+
+        <style type="text/css">
+
+            .iOS-fix a {
+                text-decoration:                none            !important;
+                color:                          #24262B         !important;
+            }
+
+            .shadow:before {
+                box-shadow:                     inset 0px 50px 60px -40px #24262B;
+                box-shadow:                     inset 0 60px 60px -50px #24262B;
+                content:                        '';
+                display:                        block;
+                position:                       absolute;
+                width:                          100%;
+                height:                         100%;
+            }
+
+            .grid-1 img, .grid-2 img, .grid-3 img, .grid-4 img {
+                /*width:                          auto            !important;
+                height:                         100%            !important;*/
+            }
+
+            @media screen and (max-width:599px) {
+                body {
+                    margin:                         0               !important;
+                    padding:                        0               !important;
+                }
+
+                div {
+                    padding:                        0               !important;
+                }
+
+                .btn {
+                    font-size:                      1em             !important;
+                }
+
+                .btn-more-issues, .btn-more-issues table {
+                    min-width:                      90px           !important;
+                }
+
+                .btn-more-issues table td {
+                    min-width:                      70px           !important;
+                }
+
+                .column {
+                    display:                        table           !important;
+                    height:                         auto            !important;
+                    max-width:                      none            !important;
+                    width:                          100%            !important;
+                }
+
+                .container-masthead, .container-uo-logo, .published-by, .mailing-address {
+                    display:                        block           !important;
+                    float:                          none            !important;
+                }
+
+                .container-social-icons {
+                    width:                          300px           !important;
+                    margin:                         auto;
+                }
+
+                .container {
+                    /*margin:                         -20px -20px     !important;*/
+                    min-width:                      320px           !important;
+                    width:                          100%            !important;
+                }
+
+                .grid {
+                    width:                          100%            !important;
+                }
+
+                .grid tr {
+                    display:                        table-row       !important;
+                }
+
+                .grid-3 {
+                    background-position:            -50px           !important;
+                }
+
+                .grid-block {
+                    display:                        table           !important;
+                    height:                         auto            !important;
+                    width:                          100%            !important;
+                }
+
+                .height-collapse {
+                    height:                         0               !important;
+                }
+
+                .height-reset {
+                    height:                         auto            !important;
+                }
+
+                .height-small {
+                    height:                         5px             !important;
+                }
+
+                .lose-align {
+                    float:                          none            !important;
+                }
+
+                .margin {
+                    width:                          10px            !important;
+                }
+
+                .margin-collapse {
+                    width:                          0               !important;
+                }
+
+                .margin-vertical {
+                    height:                         10px            !important;
+                }
+
+                .margin-vertical-30 {
+                    height:                         30px            !important;
+                }
+
+                .masthead, .uo-logo {
+                    max-width:                      300px           !important;
+                    height:                         auto            !important;
+                }
+
+                .max-wide {
+                    width:                          100%            !important;
+                    display:                        table           !important;
+                }
+
+                .mobile-hidden {
+                    display:                        none            !important;
+                }
+
+                .reset-margin {
+                    margin:                         0               !important;
+                }
+
+                .social-icons-margin {
+                    width:                          45px            !important;
+                }
+
+                .story-art {
+                    width:                          100%            !important;
+                    height:                         auto            !important;
+                }
+
+                .uo-logo {
+                    content:                        url(http://pages.uoregon.edu/edmatters/media/logos/logo-coe-hori-black.png) !important;
+                    width:                          100%;
+                }
+
+            }
+        </style>
+
+        <!-- Set zoom scale to 1 on all devices //-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+
+    <body bgcolor="#fafafc" style="margin:0;">
+        <table align="center" style="color:#24262B; font-size:16px; max-width:600px; min-width:600px;" class="container" border="0" cellpadding="0" cellspacing="0" width="600"><tbody><tr><td>
+
+            <!-- View Web version link //-->
+            <table width="100%"><tbody><tr><td align="center" valign="center" height="50"><a href="http://pages.uoregon.edu/edmatters/archive/14fall.html" style="text-decoration:none; font-size:0.8em; font-family:Arial,sans-serif; color:#a9a9ab; border-bottom: 1px dotted #a9a9ab;"><strong>View this in a web browser</strong></a></td></tr></tbody></table>
+
+            <!-- WHITESPACE //-->
+            <table bgcolor="#ffd200" width="100%"><tbody><tr><td height="20"></td></tr></tbody></table>
+
+            <table bgcolor="#ffd200" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+                <td width="20" class="margin"></td>
+                <td>
+
+                    <!-- UO COE LOGO //-->
+                    <table align="left" bgcolor="#ffd200" cellpadding="0" cellspacing="0" class="container-uo-logo max-wide" style=""><tbody><tr><td align="center"><a href="https://education.uoregon.edu/" style="text-decoration:none;"><img alt="COE logo" src="http://pages.uoregon.edu/edmatters/media/logos/logo-coe-vert-black.png" style="color:#9f3224; font-family:Calibri,Arial,sans-serif; font-size:1em; font-weight:bold; padding-bottom:5px;" class="uo-logo" border="0" height="110" width="96"></a></td></tr></tbody></table>
+
+                    <!-- Education Matters Masthead graphic //-->
+                    <table align="right" bgcolor="#ffd200" cellpadding="0" cellspacing="0" class="container-masthead max-wide reset-margin" style="border-spacing:0; border-collapse:collapse;"><tbody><tr><td align="center"><a href="http://pages.uoregon.edu/edmatters/" style="display:inline-block; text-decoration:none;"><img alt="Education Matters masthead" src="http://pages.uoregon.edu/edmatters/media/skin/masthead.png" style="color:#9f3224; font-size:1em; font-family: Calibri,Arial,sans-serif; font-weight:bold; margin:0;" class="masthead" border="0" height="110" width="431"></a></td></tr></tbody></table>
+
+                </td>
+                <td width="20" class="margin"></td>
+            </tr></tbody></table>
+
+            <!-- WHITESPACE //-->
+            <table bgcolor="#ffd200" width="100%" cellpadding="0" cellspacing="0" style="margin-top:-5px;"><tbody><tr><td height="20"></td></tr></tbody></table>
+
+            <!-- Newsletter tagline //-->
+            <table bgcolor="#ffd200" width="100%"><tbody>
+                <tr>
+                    <td width="20" class="margin"></td>
+                    <td style="font-family:Cambria,Palatino,serif; font-size:1em; line-height:1; border-top:1px dashed #24262B; border-bottom:1px dashed #24262B; word-break: keep-all;" align="center" height="40">
+                        <span style="font-family:Cambria; color:#24262B"><div style="font-family:Cambria,Palatino,serif; font-size:1.125em; line-height:1em;">
+                            <em>The&nbsp;<span class="mobile-hidden">official&nbsp;</span>U<span class="mobile-hidden">niversity&nbsp;of&nbsp;</span>O<span class="mobile-hidden">regon</span>&nbsp;College&nbsp;of&nbsp;Education&nbsp;newsletter</em>
+                        </div></span>
+                    </td>
+                    <td width="20" class="margin"></td>
+                </tr>
+            </tbody></table>
+
+            <!-- WHITESPACE //-->
+            <table bgcolor="#ffd200" width="100%"><tbody><tr><td height="20" class="margin-vertical"></td></tr></tbody></table>
+
+            <!-- CONTAINER story one //-->
+            <table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+                <td class="margin-collapse" valign="top" width="20"><img border="0" class="mobile-hidden" height="10" src="http://pages.uoregon.edu/edmatters/media/skin/left.png" style="display:inherit; position:relative; z-index:-1;" width="20"></td>
+                <td>
+
+                    <!-- ART
+
+                            - In <img> tag replace src and alt tags and set height of image in pixels
+                            - Replace href destination in <a> tag
+
+                    //-->
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0" style="position:relative;"><tbody><tr><td><a class="shadow" href="http://aaronmontoya.com/" style="text-decoration:none;"><img alt="COE representatives with Saudi educators" border="0" class="story-art" height="374" src="https://collage.uoregon.edu/filestore/9/9/8/5_0d24fa4c717eb8b/9985scr_e8ae404e389ff88.jpg" style="color:#9f3224; font-size:1em; font-family:Calibri,Arial,sans-serif; font-weight:bold; min-height:200px;" width="560"></a></td></tr></tbody></table>
+
+                    <!-- WHITESPACE //-->
+                    <table bgcolor="#ffffff" width="100%" cellpadding="0" cellspacing="0"><tbody><tr><td height="20" style="" class="margin-vertical"></td></tr></tbody></table>
+
+                    <!-- HEADLINE
+
+                            - Replace text between <strong> tags
+                            - Replace href destination in <a> tag
+
+                     //-->
+                    <table bgcolor="#ffffff" width="100%" cellpadding="0" cellspacing="0"><tbody>
+                        <tr>
+                            <td width="20" class="margin"></td>
+                            <td>
+                                <a href="http://uocoe.me/em1114f1" style="text-decoration:none; color:#a13020;"><span style="font-size:1.5em; font-family:AvenirNextCondensed-Bold,Calibri,sans-serif; line-height:1; text-transform:uppercase;"><strong>Building a more inclusive Saudi Arabia</strong></span></a>
+                            </td>
+                            <td width="20" class="margin"></td>
+                        </tr>
+                    </tbody></table>
+
+                    <!-- WHITESPACE //-->
+                    <table bgcolor="#ffffff" width="100%" cellpadding="0" cellspacing="0"><tbody><tr><td height="10" style="" class="height-small"></td></tr></tbody></table>
+
+                    <!-- STORY LEAD
+
+                            - Replace text between <span> tags
+
+                    //-->
+                    <table bgcolor="#ffffff" width="100%" cellpadding="0" cellspacing="0"><tbody><tr>
+                        <td width="20" style="" class="margin"></td>
+                        <td><span style="font-size:1.1em; line-height:1.5; font-family:AppleSDGothicNeo-Regular,Arial,sans-serif; color:#24262B;">A government-sponsored initiative within the Kingdom of Saudi Arabia will lead to more inclusive schools, thanks to a collaboration with the COE.</span></td>
+                        <td width="20" style="" class="margin"></td>
+                    </tr></tbody></table>
+
+                    <!-- WHITESPACE //-->
+                    <table bgcolor="#ffffff" width="100%" cellpadding="0" cellspacing="0"><tbody><tr><td height="15" style="" class="margin-vertical"></td></tr></tbody></table>
+
+                    <!-- READ MORE CONTAINER //-->
+                    <table bgcolor="#ffffff" width="100%" cellpadding="0" cellspacing="0"><tbody><tr>
+                        <td width="10"></td>
+                        <td align="center" valign="top" height="50">
+
+                            <!-- READ MORE BUTTON
+
+                                    - Replace href destination in BOTH <a> tags
+
+                            //-->
+                            <a href="http://uocoe.me/em1114f1" style="display:block; text-decoration:none; min-width:150px; width:0;"><table bgcolor="#a13020" cellpadding="0" cellspacing="0" style="border-radius:3px; border-top: 10px solid #a13020; border-right:10px solid #a13020; border-bottom:7px solid #a13020; border-left:10px solid #a13020; box-shadow:0 3px 0 0 #6e2016; min-width:150px;" width="33.33%"><tbody><tr><td align="center" style="min-width:130px;"><a href="http://uocoe.me/em1114f1" style="color: #ffffff; text-decoration:none;"><span class="btn" style="display:block; font-family:AppleSDGothicNeo-Light,Arial,sans-serif; font-size:1.125em; line-height:1; width:100%;">READ MORE</span></a></td></tr></tbody></table></a>
+
+                        </td>
+                        <td width="10" style=""></td>
+                    </tr></tbody></table>
+
+                    <!-- WHITESPACE //-->
+                    <table bgcolor="#ffffff" width="100%" cellspacing="0" cellpadding="0"><tbody><tr><td height="30" style="" class="margin-vertical"></td></tr></tbody></table>
+
+                </td>
+                <td class="margin-collapse" valign="top" width="20"><img border="0" class="mobile-hidden" height="10" src="http://pages.uoregon.edu/edmatters/media/skin/right.png" style="display:block; position:relative; z-index:-1;" width="20"></td>
+            </tr></tbody></table>
+
+            <!-- YELLOW CONTAINER //-->
+            <table width="100%" bgcolor="#ffd200" cellspacing="0" cellpadding="0"><tbody>
+            <tr>
+                <td>
+
+                    <!-- WHITESPACE //-->
+                    <table class="margin-vertical" width="100%" cellspacing="0" cellpadding="0"><tbody><tr><td height="30"></td></tr></tbody></table>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+                        <td height="507" valign="top">
+
+                            <!-- EVENTS COLUMN //-->
+                            <table align="left" border="0" class="column lose-align" cellspacing="0" cellpadding="0" height="100%" style="border-collapse:collapse; line-height:1.25; max-width:33.3%;" valign="top" width="33.3%"><tbody><tr>
+                                <td class="margin" height="1" width="30"><p style="margin:0; mso-table-lspace:0;mso-table-rspace:0;"></p></td>
+                                <td height="100%">
+                                    <table align="left" border="0" cellspacing="0" cellpadding="0" height="100%"><tbody>
+                                        <tr><td align="center" height="1">
+
+                                            <!-- EVENTS COLUMN HEADLINE //-->
+                                            <table border="0" cellspacing="0" cellpadding="0"><tbody><tr>
+                                                <td style="font-family:Tahoma,Arial,sans-serif; font-size:1.25em; letter-spacing:.01em; font-weight:600;" valign="bottom">EVENTS</td>
+                                                <td width="5" class="margin-collapse"></td>
+                                                <td><img border="0" src="http://pages.uoregon.edu/edmatters/media/skin/calendar.png" style="display:block;"></td>
+                                            </tr></tbody></table>
+
+                                        </td></tr>
+                                        <tr><td height="5" style="border-bottom: 1px dashed #24262B;"></td></tr>
+                                        <tr><!-- WHITESPACE //--><td height="10"></td></tr>
+
+                                        <!-- EVENT LISTING //-->
+                                        <tr><td class="iOS-fix" height="1" style="font-family:Tahoma,Arial,sans-serif; font-weight:600;">March 21-29</td></tr>
+                                        <tr><td height="1" style="font-family:Tahoma,Arial,sans-serif;">Spring Break</td></tr>
+
+                                        <tr><!-- WHITESPACE //--><td height="10"></td></tr>
+
+                                        <!-- EVENT LISTING //-->
+                                        <tr><td class="iOS-fix" height="1" style="font-family:Tahoma,Arial,sans-serif; font-weight:600;">March 30</td></tr>
+                                        <tr><td height="1" style="font-family:Tahoma,Arial,sans-serif;">Spring term begins</td></tr>
+
+                                        <tr><!-- WHITESPACE //--><td height="10"></td></tr>
+
+                                        <!-- EVENT LISTING //-->
+                                        <tr><td class="iOS-fix" height="1" style="font-family:Tahoma,Arial,sans-serif; font-weight:600;">April 18</td></tr>
+                                        <tr><td height="1" style="font-family:Tahoma,Arial,sans-serif;">COE reception at AERA conference (<a href="http://uocoe.me/em1114e3" style="text-decoration:none; font-weight:600; color:#a13020;">RSVP now</a>)</td></tr>
+
+                                        <tr><!-- WHITESPACE //--><td height="10"></td></tr>
+
+                                        <!-- EVENT LISTING //-->
+                                        <tr><td class="iOS-fix" height="1" style="font-family:Tahoma,Arial,sans-serif; font-weight:600;">May 25</td></tr>
+                                        <tr><td height="1" style="font-family:Tahoma,Arial,sans-serif;">Memorial Day</td></tr>
+
+                                        <tr><!-- FLEXIBLE WHITESPACE //--><td></td></tr>
+                                        <tr><!-- WHITESPACE //--><td height="10"></td></tr><tr><td height="15" style="border-top: 1px dashed #24262B;"></td></tr>
+                                        <tr><td height="1" align="center">
+
+                                            <!-- MORE EVENTS BUTTON
+
+                                                    - Replace href destination in BOTH <a> tags
+
+                                            //-->
+                                            <a href="http://uocoe.me/em1114f1" style="display:block; text-decoration:none; min-width:150px; width:0;"><table bgcolor="#a13020" cellpadding="0" cellspacing="0" style="border-radius:3px; border-top: 10px solid #a13020; border-right:10px solid #a13020; border-bottom:7px solid #a13020; border-left:10px solid #a13020; border-left:10px solid #a13020; box-shadow:0 3px 0 0 #6e2016; min-width:150px;"><tbody><tr><td align="center" style="min-width:130px;"><a href="http://uocoe.me/em1114f1" style="color: #ffffff; text-decoration:none;"><span class="btn" style="display:block; font-family:AppleSDGothicNeo-Light,Arial,sans-serif; font-size:1.125em; line-height:1; width:100%;">MORE EVENTS</span></a></td></tr></tbody></table></a>
+
+                                        </td></tr>
+                                    </tbody></table>
+                                </td>
+                                <td class="margin" height="1" width="15"></td>
+                            </tr><tr>
+                                <td colspan="3"></td>
+                            </tr></tbody></table>
+
+                            <!-- PEOPLE COLUMN //-->
+                            <table align="left" border="0" class="column lose-align" cellspacing="0" cellpadding="0" height="100%" style="border-collapse:collapse; line-height:1.25; max-width:33.8%;" width="33.8%"><tbody>
+                                <tr>
+                                    <td class="margin-vertical-30" height="0" colspan="3"><p style="margin:0; mso-table-lspace:0;mso-table-rspace:0;"></p></td>
+                                </tr><tr>
+                                    <td class="margin" height="1" width="16"></td>
+                                    <td height="100%">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" height="100%"><tbody>
+                                            <tr><td height="1" align="center">
+
+                                                <!-- PEOPLE COLUMN HEADLINE //-->
+                                                <table border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+                                                    <td style="font-family:Tahoma,Arial,sans-serif; font-size:1.25em; letter-spacing:.01em; font-weight:600;" valign="bottom">PEOPLE</td>
+                                                    <td width="5" class="margin-collapse"></td>
+                                                    <td><img border="0" src="http://pages.uoregon.edu/edmatters/media/skin/bio.png" style="display:block;"></td>
+                                                </tr></tbody></table>
+
+                                            </td></tr>
+                                            <tr><td height="5" style="border-bottom: 1px dashed #24262B;"></td></tr>
+                                            <tr><!-- WHITESPACE //--><td height="10"></td></tr>
+
+                                            <!-- PEOPLE LISTING //-->
+                                            <tr><td height="1" style="font-family:Tahoma,Arial,sans-serif;"><a href="http://uocoe.me/em1114e3" style="text-decoration:none; font-weight:600; color:#a13020;">Yong Zhao</a> one of top 10 most influential edu-scholars</td></tr>
+
+                                            <tr><!-- WHITESPACE //--><td height="10"></td></tr>
+
+                                            <!-- PEOPLE LISTING //-->
+                                            <tr><td height="1" style="font-family:Tahoma,Arial,sans-serif;"><a href="http://uocoe.me/em1114e3" style="text-decoration:none; font-weight:600; color:#a13020;">Gina Biancarosa</a> helps develop new reading assessment</td></tr>
+
+                                            <tr><!-- WHITESPACE //--><td height="10"></td></tr>
+
+                                            <!-- PEOPLE LISTING //-->
+                                            <tr><td height="1" style="font-family:Tahoma,Arial,sans-serif;"><a href="http://uocoe.me/em1114e3" style="text-decoration:none; font-weight:600; color:#a13020;">Mike Bullis</a> named to Fulbright Specialist Program</td></tr>
+                                            
+                                            <tr><!-- WHITESPACE //--><td height="10"></td></tr>
+
+                                            <!-- PEOPLE LISTING //-->
+                                            <tr><td height="1" style="font-family:Tahoma,Arial,sans-serif;"><a href="http://uocoe.me/em1114e3" style="text-decoration:none; font-weight:600; color:#a13020;">Cindy Herr</a> wins Thomas F. Herman Award for Excellence in Pedagogy</td></tr>
+
+                                            <tr><!-- WHITESPACE //--><td height="10"></td></tr>
+
+                                            <!-- PEOPLE LISTING //-->
+                                            <tr><td height="1" style="font-family:Tahoma,Arial,sans-serif;"><a href="http://uocoe.me/em1114e3" style="text-decoration:none; font-weight:600; color:#a13020;">Deb Olson</a> recognized by Eugene Human Rights Commission</td></tr>
+
+                                            <tr><!-- FLEXIBLE WHITESPACE //--><td></td></tr>
+                                            <tr><!-- WHITESPACE //--><td height="10"></td></tr><tr><td height="15" style="border-top: 1px dashed #24262B;"></td></tr>
+                                            <tr><td height="1" align="center">
+
+                                                <!-- MORE NEWS BUTTON
+
+                                                        - Replace href destination in BOTH <a> tags
+
+                                                //-->
+                                                <a href="http://uocoe.me/em1114f1" style="display:block; text-decoration:none; min-width:150px; width:0;"><table bgcolor="#a13020" cellpadding="0" cellspacing="0" style="border-radius:3px; border-top: 10px solid #a13020; border-right:10px solid #a13020; border-bottom:7px solid #a13020; border-left:10px solid #a13020; box-shadow:0 3px 0 0 #6e2016; min-width:150px;"><tbody><tr><td align="center" style="min-width:130px;"><a href="http://uocoe.me/em1114f1" style="color: #ffffff; text-decoration:none;"><span class="btn" style="display:block; font-family:AppleSDGothicNeo-Light,Arial,sans-serif; font-size:1.125em; line-height:1; width:100%;">MORE NEWS</span></a></td></tr></tbody></table></a>
+                                                
+                                            </td></tr>
+                                        </tbody></table>
+                                    </td>
+                                    <td class="margin" height="1" width="16"></td>
+                                </tr>
+                            </tbody></table>
+
+                            <!-- SOCIAL COLUMN //-->
+                            <table align="left" border="0" class="column lose-align" cellspacing="0" cellpadding="0" height="100%" style="border-collapse:collapse; line-height:1.25; max-width:33.3%;" valign="top" width="33.3%"><tbody>
+                                <tr>
+                                    <td class="margin-vertical-30" height="0"><p style="margin:0; mso-table-lspace:0;mso-table-rspace:0;"></p></td>
+                                </tr><tr>
+                                    <td class="margin" width="15"></td>
+                                    <td height="100%">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" height="100%"><tbody>
+                                            <tr><td height="1" align="center">
+
+                                                <!-- SOCIAL COLUMN HEADLINE //-->
+                                                <table border="0" cellspacing="0" cellpadding="0"><tbody><tr>
+                                                    <td style="font-family:Tahoma,Arial,sans-serif; font-size:1.25em; letter-spacing:.01em; font-weight:600;" valign="bottom">SOCIAL</td>
+                                                    <td width="5" class="margin-collapse"></td>
+                                                    <td><img border="0" src="http://pages.uoregon.edu/edmatters/media/skin/commentround.png" style="display:block;"></td>
+                                                </tr></tbody></table>
+
+                                            </td></tr>
+                                            <tr><td height="5" style="border-bottom: 1px dashed #24262B;"></td></tr><tr><!-- WHITESPACE //--><td height="10"></td></tr>
+
+                                            <!-- SOCIAL LISTING //-->
+                                            <tr><td height="1" style="font-family:Tahoma,Arial,sans-serif;">The <a href="http://uocoe.me/em1114e3" style="text-decoration:none; font-weight:600; color:#a13020;">opportunity gap</a> facing American children</td></tr>
+                                            
+                                            <tr><!-- WHITESPACE //--><td height="10"></td></tr>
+                                            
+                                            <!-- SOCIAL LISTING //-->
+                                            <tr><td height="1" style="font-family:Tahoma,Arial,sans-serif;">Is <a href="http://uocoe.me/em1114e3" style="text-decoration:none; font-weight:600; color:#a13020;">'fraction phobia'</a> the root of math anxiety?</td></tr>
+                                            
+                                            <tr><!-- WHITESPACE //--><td height="10"></td></tr>
+                                            
+                                            <!-- SOCIAL LISTING //-->
+                                            <tr><td height="1" style="font-family:Tahoma,Arial,sans-serif;">Is Putin on the spectrum? The <a href="http://uocoe.me/em1114e3" style="text-decoration:none; font-weight:600; color:#a13020;">Pentagon thinks so</a></td></tr>
+                                            
+                                            <tr><!-- WHITESPACE //--><td height="10"></td></tr>
+                                            
+                                            <!-- SOCIAL LISTING //-->
+                                            <tr><td height="1" style="font-family:Tahoma,Arial,sans-serif;">Time to stop putting <a href="http://uocoe.me/em1114e3" style="text-decoration:none; font-weight:600; color:#a13020;">two spaces</a> between sentences</td></tr>
+                                            
+                                            <tr><!-- WHITESPACE //--><td height="10"></td></tr>
+                                            
+                                            <!-- SOCIAL LISTING //-->
+                                            <tr><td height="1" style="font-family:Tahoma,Arial,sans-serif;">Ed Studies' Rosiek joins growing movement to <a href="http://uocoe.me/em1114e3" style="text-decoration:none; font-weight:600; color:#a13020;">opt out</a> of Smarter Balanced tests</td></tr>
+                                            
+                                            <tr><!-- FLEXIBLE WHITESPACE //--><td></td></tr><tr><!-- WHITESPACE //--><td height="10"></td></tr><tr><td height="15" style="border-top: 1px dashed #24262B;"></td></tr>
+                                            <tr><td height="1" align="center">
+
+                                                <!-- MORE TWEETS BUTTON
+
+                                                        - Replace href destination in BOTH <a> tags
+
+                                                //-->
+                                                <a href="http://uocoe.me/em1114f1" style="display:block; text-decoration:none; min-width:150px; width:0;"><table bgcolor="#a13020" cellpadding="0" cellspacing="0" style="border-radius:3px; border-top: 10px solid #a13020; border-right:10px solid #a13020; border-bottom:7px solid #a13020; border-left:10px solid #a13020; box-shadow:0 3px 0 0 #6e2016; min-width:150px;"><tbody><tr><td align="center" style="min-width:130px;"><a href="http://uocoe.me/em1114f1" style="color: #ffffff; text-decoration:none;"><span class="btn" style="display:block; font-family:AppleSDGothicNeo-Light,Arial,sans-serif; font-size:1.125em; line-height:1; width:100%;">MORE TWEETS</span></a></td></tr></tbody></table></a>
+                                                
+                                            </td></tr>
+                                        </tbody></table></td>
+                                    <td class="margin" width="30"></td>
+                                </tr>
+                            </tbody></table>
+
+                        </td>
+                    </tr></tbody></table>
+
+            </td></tr>
+            <tr>
+                <td>
+
+                    <!-- WHITESPACE //-->
+                    <table class="margin-vertical" cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td height="30" width="20"></td></tr></tbody></table>
+
+                </td>
+            </tr></tbody></table>
+            <!-- ***END*** YELLOW CONTAINER //-->
+
+            <!-- CONTAINER story two //-->
+            <table width="100%" border="0" cellspacing="0" cellpadding="0"><tbody><tr>
+                <td class="margin-collapse" valign="top" width="20"><img border="0" class="mobile-hidden" height="10" src="http://pages.uoregon.edu/edmatters/media/skin/left.png" style="display:inherit; position:relative; z-index:-1;" width="20"></td>
+                <td>
+
+                    <!-- ART
+
+                            - In <img> tag replace src and alt tags and set height of image in pixels
+                            - Replace href destination in <a> tag
+
+                    //-->
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0" style="position:relative;"><tbody><tr><td><a class="shadow" href="#"><img class="story-art" src="https://collage.uoregon.edu/filestore/9/9/8/5_0d24fa4c717eb8b/9985scr_e8ae404e389ff88.jpg" alt="COE representatives with Saudi educators" style="color:#9f3224; font-size:1em; font-family:Calibri,Arial,sans-serif; font-weight:bold; min-height:200px;" border="0" width="560" height="374"></a></td></tr></tbody></table>
+
+                    <!-- WHITESPACE //-->
+                    <table bgcolor="#ffffff" width="100%" cellpadding="0" cellspacing="0"><tbody><tr><td height="20" style="" class="margin-vertical"></td></tr></tbody></table>
+
+                    <!-- HEADLINE
+
+                            - Replace text between <strong> tags
+                            - Replace href destination in <a> tag
+
+                     //-->
+                    <table bgcolor="#ffffff" width="100%" cellpadding="0" cellspacing="0"><tbody>
+                        <tr>
+                            <td bgcolor="" width="20" class="margin"></td>
+                            <td bgcolor="">
+                                <a href="http://uocoe.me/em1114f1" style="text-decoration:none; color:#a13020;"><span style="font-size:1.5em; font-family:AvenirNextCondensed-Bold,Calibri,sans-serif; line-height:1; text-transform:uppercase;"><strong>Staying Strong</strong></span></a>
+                            </td>
+                            <td bgcolor="" width="20" class="margin"></td>
+                        </tr>
+                    </tbody></table>
+
+                    <!-- WHITESPACE //-->
+                    <table bgcolor="#ffffff" width="100%" cellpadding="0" cellspacing="0"><tbody><tr><td height="10" style="" class="height-small"></td></tr></tbody></table>
+
+                    <!-- STORY LEAD
+
+                            - Replace text between <span> tags
+
+                    //-->
+                    <table bgcolor="#ffffff" width="100%" cellpadding="0" cellspacing="0"><tbody><tr>
+                        <td width="20" style="" class="margin"></td>
+                        <td style="" ><span style="font-size:1.1em; line-height:1.5; font-family:AppleSDGothicNeo-Regular,Arial,sans-serif; color:#24262B;">The COE moves up to No. 12 overall (No. 5 public) in the 2016 U.S. News rankings, with SPED holding steady and research output on the rise.</span></td>
+                        <td width="20" style="" class="margin"></td>
+                    </tr></tbody></table>
+
+                    <!-- WHITESPACE //-->
+                    <table bgcolor="#ffffff" width="100%" cellpadding="0" cellspacing="0"><tbody><tr><td height="15" style="" class="margin-vertical"></td></tr></tbody></table>
+
+                    <!-- READ MORE CONTAINER //-->
+                    <table bgcolor="#ffffff" width="100%" cellpadding="0" cellspacing="0"><tbody><tr>
+                        <td width="10" style=""></td>
+                        <td align="center" valign="top" style="" height="50">
+
+                            <!-- READ MORE BUTTON
+
+                                    - Replace href destination in BOTH <a> tags
+
+                            //-->
+                            <a href="http://uocoe.me/em1114f1" style="display:block; text-decoration:none; min-width:150px; width:0;"><table bgcolor="#a13020" cellpadding="0" cellspacing="0" style="border-radius:3px; border-top: 10px solid #a13020; border-right:10px solid #a13020; border-bottom:7px solid #a13020; border-left:10px solid #a13020; box-shadow:0 3px 0 0 #6e2016; min-width:150px;" width="33.33%"><tbody><tr><td align="center" style="min-width:130px;"><a href="http://uocoe.me/em1114f1" style="color: #ffffff; text-decoration:none;"><span class="btn" style="display:block; font-family:AppleSDGothicNeo-Light,Arial,sans-serif; font-size:1.125em; line-height:1; width:100%;">READ MORE</span></a></td></tr></tbody></table></a>
+
+                        </td>
+                        <td width="10" style=""></td>
+                    </tr></tbody></table>
+
+                    <!-- WHITESPACE //-->
+                    <table bgcolor="#ffffff" width="100%" cellspacing="0" cellpadding="0"><tbody><tr><td height="30" style="" class="margin-vertical"></td></tr></tbody></table>
+
+                </td>
+                <td class="margin-collapse" valign="top" width="20"><img border="0" class="mobile-hidden" height="10" src="http://pages.uoregon.edu/edmatters/media/skin/right.png" style="display:inherit; position:relative; z-index:-1;" width="20"></td>
+            </tr></tbody></table>
+
+            <!-- YELLOW CONTAINER //-->
+            <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffd200"><tbody><tr>
+                <td width="20"></td>
+                <td>
+                    <!-- WHITESPACE //-->
+                    <table cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td height="30"></td></tr></tbody></table>
+
+                    <!-- CONTAINER: SOCIAL MEDIA ICONS //-->
+                    <table cellspacing="0" cellpadding="0" width="100%" class="container-social-icons"><tbody><tr><td align="center">
+
+                        <!-- SOCIAL MEDIA ICONS //-->
+                        <table cellpadding="0" cellspacing="0"><tbody><tr>
+                            <td><a href="http://www.facebook.com/uoeducation" style="text-decoration:none;"><img alt="Faceboo" border="0" src="http://pages.uoregon.edu/edmatters/media/skin/facebook_48px.png" style="color:#9f3224; font-size:.8em; font-family:Calibri,Arial,sans-serif; font-weight:bold;"></a></td><td width="30"></td>
+                            <td><a href="http://www.twitter.com/uoeducation" style="text-decoration:none;"><img alt="Twitter" border="0" src="http://pages.uoregon.edu/edmatters/media/skin/twitter_48px.png" style="color:#9f3224; font-size:.8em; font-family:Calibri,Arial,sans-serif; font-weight:bold;"></a></td><td width="30"></td>
+                            <td><a href="http://www.youtube.com/uoeducation" style="text-decoration:none;"><img alt="YouTube" border="0" src="http://pages.uoregon.edu/edmatters/media/skin/youtube_48px.png" style="color:#9f3224; font-size:.8em; font-family:Calibri,Arial,sans-serif; font-weight:bold;"></a></td><td width="30"></td>
+                            <td><a href="http://www.instagram.com/uoeducation" style="text-decoration:none;"><img alt="Instagr" border="0" src="http://pages.uoregon.edu/edmatters/media/skin/instagram_48px.png" style="color:#9f3224; font-size:.8em; font-family:Calibri,Arial,sans-serif; font-weight:bold;"></a></td><td width="30"></td>
+                            <td><a href="http://www.flickr.com/uoeducation" style="text-decoration:none;"><img alt="Flickr" border="0" src="http://pages.uoregon.edu/edmatters/media/skin/flickr_48px.png" style="color:#9f3224; font-size:.8em; font-family:Calibri,Arial,sans-serif; font-weight:bold;"></a></td>
+                        </tr></tbody></table>
+
+                    </td></tr></tbody></table>
+
+                    <!-- WHITESPACE //-->
+                    <table cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td height="30"></td></tr></tbody></table>
+                </td>
+                <td width="20"></td>
+            </tr></tbody></table>
+            <!-- ***END*** YELLOW CONTAINER //-->
+
+            <!-- CONTAINER: STORY GRID //-->
+            <table cellspacing="0" cellpadding="0" width="100%"><tbody><tr>
+                <td class="margin-collapse" valign="top" width="20"><img border="0" class="mobile-hidden" height="10" src="http://pages.uoregon.edu/edmatters/media/skin/left.png" style="display:inherit; position:relative; z-index:-1;" width="20"></td>
+                <td align="center" bgcolor="#ffffff" class="shadow" style="position:relative;">
+
+                    <!-- WHITESPACE //-->
+                    <table cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td height="30"></td></tr></tbody></table>
+                    
+                    <!-- STORY GRID ROW 1 //-->
+                    <table cellpadding="9" cellspacing="0" class="grid-block" style="display:inline-block; position:relative; vertical-align:top;" width="276"><tbody>
+                        <tr><td align="center" style="display:block;">
+                            <table cellpadding="9" cellspacing="0"><tbody>
+                                <tr><td align="center">
+                                    <!-- ART
+
+                                            - In <img> tag replace src and alt tags and set height of image in pixels
+                                            - Replace href destination in <a> tag
+
+                                    //-->
+                                    <a href="http://uocoe.me/em1114f1" style="text-decoration:none;"><img border="0" src="https://collage.uoregon.edu/filestore/9/9/9/3_3e2734feafad862/9993scr_5fc0619e55af058.jpg" style="box-shadow:0 18px 27px -15px #24262B; display:block; max-height:240px; max-width:240px; text-decoration:none;" /></a>
+                                </td></tr>
+                                <tr><td>
+                                    <!-- HEADLINE
+
+                                            - Replace text between <strong> tags
+                                            - Replace href destination in <a> tag
+
+                                    //-->
+                                    <a href="http://uocoe.me/em1114f1" style="text-decoration:none;"><span style="color:#a13020; background-color:#ffd200; font-family:Tahoma,Arial,sans-serif; font-size:1.25em; line-height:1.375;"><strong>COE Shines at Grad Forum&nbsp;&#187;</strong></span></a>
+                                </td></tr>
+                            </tbody></table>
+                        </td></tr>
+                    </tbody></table><table cellpadding="9" cellspacing="0" class="grid-block" style="display:inline-block; position:relative; vertical-align:top;" width="276"><tbody>
+                        <tr><td align="center" style="display:block;">
+                            <table cellpadding="9" cellspacing="0"><tbody>
+                                <tr><td align="center">
+                                    <!-- ART
+
+                                            - In <img> tag replace src and alt tags and set height of image in pixels
+                                            - Replace href destination in <a> tag
+
+                                    //-->
+                                    <a href="http://uocoe.me/em1114f1" style="text-decoration:none;"><img alt="" border="0" src="https://collage.uoregon.edu/filestore/9/9/6/2_b16304b7c833c5b/9962scr_6f2a4dc84aee860.jpg" style="box-shadow:0 18px 27px -15px #24262B; display:inline-block; max-height:240px; max-width:240px; text-decoration:none;" /></a>
+                                </td></tr>
+                                <tr><td>
+                                    <!-- HEADLINE
+
+                                            - Replace text between <strong> tags
+                                            - Replace href destination in <a> tag
+
+                                    //-->
+                                    <a href="http://uocoe.me/em1114f1" style="text-decoration:none;"><span style="color:#a13020; background-color:#ffd200; font-family:Tahoma,Arial,sans-serif; font-size:1.25em; line-height:1.375;"><strong>Rosiek named Morse Scholar&nbsp;&#187;</strong></span></a>
+                                </td></tr>
+                            </tbody></table>
+                        </td></tr>
+                    </tbody></table>
+                    
+                    <!-- STORY GRID ROW 2 //-->
+                    <table cellpadding="9" cellspacing="0" class="grid-block" style="display:inline-block; position:relative; vertical-align:top;" width="276"><tbody>
+                        <tr><td align="center" style="display:block;">
+                            <table cellpadding="9" cellspacing="0"><tbody>
+                                <tr><td align="center">
+                                    <!-- ART
+
+                                            - In <img> tag replace src and alt tags and set height of image in pixels
+                                            - Replace href destination in <a> tag
+
+                                    //-->
+                                    <a href="http://uocoe.me/em1114f1" style="text-decoration:none;"><img alt="" border="0" src="https://collage.uoregon.edu/filestore/9/9/1/1_2e241c3be0b24ea/9911scr_14c561d4fcb8793.jpg" style="box-shadow:0 18px 27px -15px #24262B; display:block; max-height:240px; max-width:240px; text-decoration:none;" /></a>
+                                </td></tr>
+                                <tr><td>
+                                    <!-- HEADLINE
+
+                                            - Replace text between <strong> tags
+                                            - Replace href destination in <a> tag
+
+                                    //-->
+                                    <a href="http://uocoe.me/em1114f1" style="text-decoration:none;"><span style="color:#a13020; background-color:#ffd200; font-family:Tahoma,Arial,sans-serif; font-size:1.25em; line-height:1.375;"><strong>McIntosh receives early career award&nbsp;&#187;</strong></span></a>
+                                </td></tr>
+                            </tbody></table>
+                        </td></tr>
+                    </tbody></table><table cellpadding="9" cellspacing="0" class="grid-block" style="display:inline-block; position:relative; vertical-align:top;" width="276"><tbody>
+                        <tr><td align="center" style="display:block;">
+                            <table cellpadding="9" cellspacing="0"><tbody>
+                                <tr><td align="center">
+                                    <!-- ART
+
+                                            - In <img> tag replace src and alt tags and set height of image in pixels
+                                            - Replace href destination in <a> tag
+
+                                    //-->
+                                    <a href="http://uocoe.me/em1114f1" style="text-decoration:none;"><img alt="" border="0" src="https://collage.uoregon.edu/filestore/9/8/9/2_1045578cc78a821/9892scr_c36ded16765b517.jpg" style="box-shadow:0 18px 27px -15px #24262B; display:inline-block; max-height:240px; max-width:240px; text-decoration:none;" /></a>
+                                </td></tr>
+                                <tr><td>
+                                    <!-- HEADLINE
+
+                                            - Replace text between <strong> tags
+                                            - Replace href destination in <a> tag
+
+                                    //-->
+                                    <a href="http://uocoe.me/em1114f1" style="text-decoration:none;"><span style="color:#a13020; background-color:#ffd200; font-family:Tahoma,Arial,sans-serif; font-size:1.25em; line-height:1.375;"><strong>Cluster initiative opens 5 faculty positions&nbsp;&#187;</strong></span></a>
+                                </td></tr>
+                            </tbody></table>
+                        </td></tr>
+                    </tbody></table>
+
+                    <!-- WHITESPACE //-->
+                    <table cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td height="30"></td></tr></tbody></table>
+
+                </td>
+                <td class="margin-collapse" valign="top" width="20"><img border="0" class="mobile-hidden" height="10" src="http://pages.uoregon.edu/edmatters/media/skin/right.png" style="display:inherit; position:relative; z-index:-1;" width="20"></td>
+            </tr></tbody></table>
+
+             <!-- YELLOW CONTAINER //-->
+            <table width="100%" bgcolor="#ffd200"><tbody><tr>
+                <td width="9"></td>
+                <td align="center">
+                    <!-- WHITESPACE //-->
+                    <table width="100%"><tbody><tr><td height="30"></td></tr></tbody></table>
+
+                    <!-- EDUCATION MATTERS //-->
+                    <table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td align="left" style="font-family:Tahoma,Arial,sans-serif; color:#24262B;font-size:1.5em;font-weight:600;text-transform:uppercase;line-height:1;">Education Matters</td></tr></tbody></table>
+
+                    <!-- WHITESPACE //-->
+                    <table width="100%"><tbody><tr><td height="10"></td></tr></tbody></table>
+
+                    <!-- DASHED RULE //-->
+                    <table width="100%"><tbody><tr><td height="5" style="border-top: 1px dashed #24262B;"></td></tr></tbody></table>
+
+                    <!-- VOLUME AND ISSUE NUMBERS
+
+                            - Replace text between <td> tags
+                            - Use &nbsp; instead of spaces to prevent a broken line
+
+                     //-->
+                    <table cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+                        <td style="font-family:Calibri,Arial,sans-serif;font-weight:600;font-size:1em;">Volume&nbsp;XXII&nbsp;&middot;&nbsp;Issue&nbsp;I</td>
+                        <td align="right">
+
+                            <!-- MORE ISSUES BUTTON //-->
+                            <a class="btn-more-issues" href="http://uocoe.me/em1114f1" style="display:block; text-decoration:none; min-width:200px; width:0;"><table bgcolor="#a13020" cellpadding="0" cellspacing="0" style="border-radius:3px; border-top: 10px solid #a13020; border-right:10px solid #a13020; border-bottom:7px solid #a13020; border-left:10px solid #a13020; box-shadow:0 3px 0 0 #6e2016; min-width:200px;"><tbody><tr><td align="center" style="min-width:180px;"><a href="http://uocoe.me/em1114f1" style="color: #ffffff; text-decoration:none;"><span class="btn" style="display:block; font-family:AppleSDGothicNeo-Light,Arial,sans-serif; font-size:1.125em; line-height:1; width:100%;">MORE ED MATTERS</span></a></td></tr></tbody></table></a>
+
+                        </td>
+                    </tr></tbody></table>
+
+                    <!-- WHITESPACE //-->
+                    <table width="100%"><tbody><tr><td height="5"></td></tr></tbody></table>
+
+                    <!-- DASHED RULE //-->
+                    <table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td height="15" style="border-top: 1px dashed #24262B;"></td></tr></tbody></table>
+
+                    <!-- FOOTER COPY GRAF
+
+                            - Replace text between <td> tags
+                            - Please remember to include the tags that should surround your links. Following is an example you can copy, paste and replace the necessary text.
+                                <span style="border-bottom:1px dotted #a13020;"><a href="http://REPLACE ME WITH A VALID URL" style="text-decoration:none;color:#a13020;font-weight:600;">REPLACE ME WITH LINK TEXT</a></span>
+
+                    //-->
+                    <table align="left" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td style="font-family:Calibri,Arial,sans-serif;font-size:1em;line-height:1.375;">Welcome to the winter 2015 Education Matters. The UO campaign is in full swing, and <span style="border-bottom:1px dotted #a13020;"><a href="http://uocoe.me/em0315-gift" style="text-decoration:none;color:#a13020;font-weight:600;">you can help</a></span> the COE reach its ambitious goals to increase access for students, attract and retain faculty in strategically vital areas, and expand the scope and prominence of our clinical services. There are many positive changes afoot, and we're excited for what's next. We hope you are, too.</td></tr></tbody></table>
+
+                    <!-- WHITESPACE //-->
+                    <table width="100%"><tbody><tr><td height="10"></td></tr></tbody></table>
+
+                    <!-- FOOTER COPY GRAF
+
+                            - Replace text between <td> tags
+                            - Please remember to include the tags that should surround your links. Following is an example you can copy, paste and replace the necessary text.
+                                <span style="border-bottom:1px dotted #a13020;"><a href="http://REPLACE ME WITH A VALID URL" style="text-decoration:none;color:#a13020;font-weight:600;">REPLACE ME WITH LINK TEXT</a></span>
+
+                    //-->
+                    <table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td align="left" style="font-family:Calibri,Arial,sans-serif;font-size:1em;line-height:1.375;">Education Matters is distributed each term. Use the e-mail link below to contact the editor; physical letters are always welcome as well.</td></tr></tbody></table>
+
+                    <!-- WHITESPACE //-->
+                    <table width="100%"><tbody><tr><td height="30"></td></tr></tbody></table>
+
+                    <!-- MANAGE YOUR SUBSCRIPTION BUTTON //-->
+                    <a href="http://uocoe.me/em1114f1" style="display:block; min-width:260px; text-decoration:none; width:0;"><table bgcolor="#a13020" cellpadding="0" cellspacing="0" style="border-radius:3px; border-top: 10px solid #a13020; border-right:10px solid #a13020; border-bottom:7px solid #a13020; border-left:10px solid #a13020; box-shadow:0 3px 0 0 #6e2016; min-width:260px;"><tbody><tr><td align="center" style="min-width:240px;"><a href="http://uocoe.me/edumanage" style="color: #ffffff; text-decoration:none;"><span class="btn" style="display:block; font-family:AppleSDGothicNeo-Light,Arial,sans-serif; font-size:1.125em; line-height:1; width:100%;">MANAGE YOUR SUBSCRIPTION</span></a></td></tr></tbody></table></a>
+
+                    <!-- WHITESPACE //-->
+                    <table width="100%"><tbody><tr><td height="30"></td></tr></tbody></table>
+
+                    <!-- DASHED RULE //-->
+                    <table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td height="15" style="border-top: 1px dashed #24262B;"></td></tr></tbody></table>
+
+                    <!-- CONTAINER //-->
+                    <table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td>
+
+                        <!-- Published by the University of Oregon College of Education //-->
+                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="column published-by" style="border-collapse:collapse; vertical-align:top;" width="49.75%"><tbody><tr><td style="color:#24262B; font-family:Tahoma,Arial,sans-serif; font-size:1em; font-weight:600; line-height:1.25; text-transform:uppercase;"><p style="margin:0; mso-table-lspace:0;mso-table-rspace:0;">Published by the<br><a href="https://education.uoregon.edu/" style="text-decoration:none;color:#a13020;font-weight:600;">University of Oregon<br>College of Education</a></p></td></tr></tbody></table>
+
+                        <!-- MAILING ADDRESS //-->
+                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="column mailing-address" style="border-collapse:collapse; vertical-align:top;" width="49.75%"><tbody>
+                            <tr><td class="margin-vertical"><p style="margin:0; mso-table-lspace:0;mso-table-rspace:0;"></p></td></tr>
+                            <tr><td class="iOS-fix" style="font-family:Calibri,Arial,sans-serif;font-size:1em;font-weight:500;line-height:1.25; text-transform:uppercase;">
+                                <strong>Marketing and Communications</strong>
+                                <br>College of Education 
+                                <br>1215 University of Oregon 
+                                <br>Eugene, OR 97403-1215
+                            </td></tr>
+                        </tbody></table>
+
+                    </td></tr></tbody></table>
+
+                    <!-- WHITESPACE //-->
+                    <table width="100%"><tbody><tr><td height="5"></td></tr></tbody></table>
+
+                    <!-- DASHED RULE //-->
+                    <table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td height="1" style="border-top: 1px dashed #24262B;"></td></tr></tbody></table>
+
+                    <!-- FOOTER //-->
+                    <table cellpadding="0" cellspacing="0" width="100%" cellpadding="0" cellspacing="0"><tbody><tr><td align="center">
+
+                        <!-- WHITESPACE //-->
+                        <table width="100%"><tbody><tr><td height="30"></td></tr></tbody></table>
+
+                        <!-- CONTAINER boilerplate links //-->
+                        <table cellspacing="0" cellpadding="0" align="center"><tbody><tr>
+                            <td width="10"></td>
+                            <td align="center">
+
+                                <!-- CONTAINER footer rounded corners //-->
+                                <table cellpadding="10" cellspacing="0" style="border-radius:5px; box-shadow: 1px 1px 15px -10px #24262B;" width="100%" bgcolor="#f8f8ff"><tbody><tr><td>
+
+                                    <!-- WEB icon and address //-->
+                                    <table style="vertical-align:middle;" cellspacing="0" cellpadding="0"><tbody><tr><td><img src="http://pages.uoregon.edu/edmatters/big-questions/icon-www.png" height="24" width="24"></td><td width="10"></td><td style="border-left:1px solid #a8a8aa;" width="10"></td><td class="iOS-fix" style="color:#24262B; font-family:sans-serif; font-size:1em; line-height:1.5; max-width:200px; overflow:hidden; text-decoration:none;"><a href="https://education.uoregon.edu" style="color:#24262B; text-decoration:none;">education.uoregon.edu</a></td></tr></tbody></table>
+
+                                </td></tr></tbody></table>
+
+                            </td>
+                            <td width="10"></td>
+                        </tr><tr>
+                            <td></td>
+                            <td height="20"></td>
+                            <td></td>
+                        </tr><tr>
+                            <td width="10"></td>
+                            <td align="center">
+
+                                <!-- CONTAINER footer rounded corners //-->
+                                <table cellpadding="10" cellspacing="0" style="border-radius:5px; box-shadow: 1px 1px 15px -10px #24262B;" width="100%" bgcolor="#f8f8ff"><tbody><tr><td>
+
+                                    <!-- EMAIL icon and address //-->
+                                    <table style="vertical-align:middle;" cellspacing="0" cellpadding="0"><tbody><tr><td><img src="http://pages.uoregon.edu/edmatters/big-questions/icon-email-send.png" height="24" width="24"></td><td width="10"></td><td style="border-left:1px solid #a8a8aa;" width="10"></td><td class="iOS-fix" style="color:#24262B; font-family:sans-serif; font-size:1em; line-height:1.5; max-width:200px; overflow:hidden; text-decoration:none;"><a style="color:#24262B; text-decoration:none;">edmatters@uoregon.edu</a></td></tr></tbody></table>
+
+                                </td></tr></tbody></table>
+
+                            </td>
+                            <td width="10"></td>
+                        </tr><tr>
+                            <td></td>
+                            <td height="20"></td>
+                            <td></td>
+                        </tr><tr>
+                            <td width="10"></td>
+                            <td align="center">
+
+                                <!-- CONTAINER footer rounded corners //-->
+                                <table cellpadding="10" cellspacing="0" style="border-radius:5px; box-shadow: 1px 1px 15px -10px #24262B;" width="100%" bgcolor="#f8f8ff"><tbody><tr><td align="left" valign="middle">
+
+                                    <!-- MAILING address and HEDCO icon //-->
+                                    <table style="vertical-align:middle;" cellspacing="0" cellpadding="0"><tbody><tr>
+                                        <td><img src="http://pages.uoregon.edu/edmatters/big-questions/icon-address-hedco.png" height="24" width="24"></td>
+                                        <td width="10"></td>
+                                        <td style="border-left:1px solid #a8a8aa;" width="10"></td>
+                                        <td class="iOS-fix" style="font-size:1em; line-height:1.25; text-decoration:none; font-family:sans-serif; color:#24262B;">
+                                            College of Education
+                                            <br />1215 University of Oregon
+                                            <br />Eugene, OR 97403-1215</td>
+                                        </td>
+                                    </tr></tbody></table>
+
+                                </td></tr></tbody></table>
+
+                            </td>
+                            <td width="10"></td>
+                        </tr></tbody></table>
+
+                        <!-- WHITESPACE //-->
+                        <table width="100%"><tbody><tr><td height="30"></td></tr></tbody></table>
+
+                    </td></tr></tbody></table>
+                    <!-- ***END*** FOOTER //-->
+
+                </td>
+                <td width="9"></td>
+            </tr></tbody></table>
+
+        </td></tbody></table>
+    </body>
+</html>
