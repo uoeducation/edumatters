@@ -36,15 +36,8 @@
     background: url(http://pages.uoregon.edu/edmatters/media/issues/2015/summer/fhs-o.jpg) no-repeat center 100%;
 }
 
-/*//**//**//**//**//**//**//**//**//**//**//**
-
-    Element ID style declarations that
-    apply specifically to the archive page
-
-*//**//**//**//**//**//**//**//**//**//**//**/
-
-#archive-arrow-bump {
-	top: -25px;
+#archive-issue-9 {
+    background: url(http://pages.uoregon.edu/edmatters/media/issues/2015/fall/edst-quilt-2.jpg) no-repeat 50% 17.5%;
 }
 
 /*//**//**//**//**//**//**//**//**//**//**//**
@@ -55,33 +48,53 @@
 *//**//**//**//**//**//**//**//**//**//**//**/
 
 .year {
-    padding: 0 .2em;
-    background: #ffd83b;
-    display: inline;
-    text-shadow: none;
-    color: #2e2e2e;
+    
+}
+
+.year a {
+    
+}
+
+.archive-background {
+    background-size:                cover   !important;
+    padding:                        40px;
 }
 
 .archive-headline {
-    padding: 40px;
+    background:                     rgba(0,0,0,.36);
+    border-radius:                  3px;
+    font-size:                      1.5em;
+    font-family:                    AvenirNextCondensed-Bold, Calibri, sans-serif;
+    line-height:                    1;
+    text-transform:                 uppercase;
+    padding:                        20px;
 }
 
 .archive-headline a {
-    text-shadow: #2e2e2e 2px 2px 1px;
-    color: #FeFeFe;
+    color:                          #FeFeFe;
+    text-shadow:                    #2e2e2e 2px 2px 1px;
 }
 
 .archive-headline h3 {
-    margin-bottom: .8em;
+    margin:                         0;
+    margin-bottom:                  .8em;
 }
 
-.archive-divider {
-    background: #2e2e2e;
-    height: 10px;
+.archive-headline h3:first-child {
+    background:                     #ffd83b;
+    border-radius:                  3px;
+    color:                          #2e2e2e;
+    display:                        inline-block;
+    font-family:                    Tahoma, Arial, sans-serif;
+    font-weight:                    600;
+    letter-spacing:                 .01em;
+    padding:                        3px 9px;
 }
 
-.archive-image-screen {
-    background: rgba(237, 233, 224, .5);
+.archive-headline h3:first-child a {
+    color:                          #2e2e2e !important;
+    text-decoration:                none;
+    text-shadow:                    none    !important;
 }
 
 .archive-shadow {
@@ -93,11 +106,6 @@
     position: relative;
     width: 100%;
     top: -10px;
-}
-
-.archive-arrow {
-	position: relative;
-	z-index: 2;
 }
 
 /*//**//**//**//**//**//**//**//**//**//**//**
@@ -113,10 +121,10 @@
 
 @media (max-width: 600px) {
 	.archive-headline {
-	    padding: 20px;
+	    padding:                           36px    !important;
 	}
 
     h3 {
-        font-size: 1.1em;
+        font-size: 1em;
     }
 }

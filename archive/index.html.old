@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>
+            Issue Archive&mdash;Education Matters
+        </title>
+
+        <meta name="viewport" content="initial-scale=1">
+
+        <link href="http://pages.uoregon.edu/edmatters/style/version-1.css" rel="stylesheet" type="text/css">
+
+        <link href="http://pages.uoregon.edu/edmatters/style/archive.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" marginheight="0" marginwidth="0">
+        <div id="container">
+            <header class="yellow">
+                <a href="https://education.uoregon.edu/"><img id="logo" class="mobile-invisible" alt="University of Oregon College of Education logo" src="http://pages.uoregon.edu/edmatters/media/skin/coe-stk-blk.png"></a>
+
+                <img id="masthead" alt="Education Matters masthead" src="http://pages.uoregon.edu/edmatters/media/skin/masthead-retina.png">
+
+                <a href="https://education.uoregon.edu/" target="_blank">
+                    <img id="logo" class="mobileonly" alt="University of Oregon College of Education logo" src="http://pages.uoregon.edu/edmatters/media/skin/EducationLogo.png">
+                </a>
+
+                <div class="clearfix"></div>
+
+                <div id="tagline" class="dashed-bottom dashed-top">
+                    <p id="taglinecopy" class="body copy"><em><span class="mobile-invisible">The&nbsp;newsletter&nbsp;of&nbsp;the&nbsp;University&nbsp;of&nbsp;Oregon</span>&nbsp;<span class="mobileonly">UO&nbsp;</span>College&nbsp;of&nbsp;Education<span class="mobileonly">&nbsp;newsletter</span></em></p>
+                </div>
+            </header>
+
+            <div>
+                <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/left.png" class="left archive-arrow">
+
+                <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/shadow.png" class="archive-shadow">
+
+                <img alt="" src="http://pages.uoregon.edu/edmatters/media/skin/right.png" class="right archive-arrow" id="archive-arrow-bump">
+            </div>
+
+<!--/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+            POSTS
+            Remember to replace
+            - post id
+            - year text
+            - headline text
+            - headline links
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-->
+
+            <div id="2015-summer">
+                <div class="story-wrapper" id="archive-issue-8">
+                    <div class="archive-image-screen">
+                        <div class="archive-headline">
+                            <h3><a href="http://pages.uoregon.edu/edmatters/archive/15summer.html"><span class="year">Summer 2015</span></a></h3>
+                            <h3><a href="http://pages.uoregon.edu/edmatters/archive/15summer.html#story-1">FHS' Community Impact Eclipses $20M</a></h3>
+                            <h3><a href="http://pages.uoregon.edu/edmatters/archive/15summer.html#story-2">Working Memory, Teens, and Risk Behavior</a></h3>
+                            <h3><a href="http://pages.uoregon.edu/edmatters/archive/15summer.html#story-grid">COE announces $11.5M in IES grants</a></h3>
+                        </div>
+                    </div>
+
+                    <div class="archive-divider"></div>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+
+            <div id="2015-spring">
+                <div class="story-wrapper" id="archive-issue-7">
+                    <div class="archive-image-screen">
+                        <div class="archive-headline">
+                            <h3><a href="http://pages.uoregon.edu/edmatters/archive/15spring.html"><span class="year">Spring 2015</span></a></h3>
+                            <h3><a href="http://pages.uoregon.edu/edmatters/archive/15spring.html#story-1">Could interventions be more efficient?</a></h3>
+                            <h3><a href="http://pages.uoregon.edu/edmatters/archive/15spring.html#story-2">More than words</a></h3>
+                            <h3><a href="http://pages.uoregon.edu/edmatters/archive/15spring.html#story-grid">Unruh recognized for research</a></h3>
+                        </div>
+                    </div>
+
+                    <div class="archive-divider"></div>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+
+            <div id="2015-winter">
+                <div class="story-wrapper" id="archive-issue-6">
+                    <div class="archive-image-screen">
+                        <div class="archive-headline">
+                            <h3><a href="http://pages.uoregon.edu/edmatters/archive/15winter.html"><span class="year">Winter 2015</span></a></h3>
+                            <h3><a href="http://pages.uoregon.edu/edmatters/archive/15winter.html#story-1">How can we reboot computer science?</a></h3>
+                            <h3><a href="http://pages.uoregon.edu/edmatters/archive/15winter.html#story-2">Staying strong</a></h3>
+                            <h3><a href="http://pages.uoregon.edu/edmatters/archive/15winter.html#story-grid">Cluster initiative opens five faculty positions</a></h3>
+                        </div>
+                    </div>
+
+                    <div class="archive-divider"></div>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+
+            <div id="2014-fall">
+                <div class="story-wrapper" id="archive-issue-5">
+                    <div class="archive-image-screen">
+                        <div class="archive-headline">
+                            <h3>
+                                <a href="http://pages.uoregon.edu/edmatters/archive/14fall.html">
+                                <span class="year">
+                                Fall 2014
+                                </span>
+                                </a>
+                            </h3>
+                            <h3>
+                                <a href="http://pages.uoregon.edu/edmatters/archive/14fall.html#story-1">
+                                Building a more inclusive Saudi Arabia
+                                </a>
+                            </h3>
+                            <h3>
+                                <a href="http://pages.uoregon.edu/edmatters/archive/14fall.html#story-2">
+                                HEP no more
+                                </a>
+                            </h3>
+                            <h3>
+                                <a href="http://pages.uoregon.edu/edmatters/archive/14fall.html#story-grid">
+                                What UO's $2B campaign means for the COE
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div class="archive-divider"></div>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+
+            <div id="2014-summer">
+                <div class="story-wrapper" id="archive-issue-4">
+                    <div class="archive-image-screen">
+                        <div class="archive-headline">
+                            <h3>
+                                <a href="http://pages.uoregon.edu/edmatters/archive/14sum.html">
+                                <span class="year">
+                                Summer 2014
+                                </span>
+                                </a>
+                            </h3>
+                            <h3>
+                                <a href="http://pages.uoregon.edu/edmatters/archive/14sum.html#story-1">
+                                FHS prof punks out for students
+                                </a>
+                            </h3>
+                            <h3>
+                                <a href="http://pages.uoregon.edu/edmatters/archive/14sum.html#story-2">
+                                Despite conflict to West, FHS in Russia to work with at-risk youth
+                                </a>
+                            </h3>
+                            <h3>
+                                <a href="http://pages.uoregon.edu/edmatters/archive/14sum.html#story-3">
+                                Meet the dean: Randy Kamphaus headed to UO
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div class="archive-divider"></div>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+
+            <div id="2014-april">
+                <div class="story-wrapper" id="archive-issue-3">
+                    <div class="archive-image-screen">
+                        <div class="archive-headline">
+                            <h3>
+                                <a href="http://pages.uoregon.edu/edmatters/archive/14apr.html">
+                                <span class="year">
+                                April 2014
+                                </span>
+                                </a>
+                            </h3>
+                            <h3>
+                                <a href="http://pages.uoregon.edu/edmatters/archive/14apr.html#story-1">
+                                Teaching children philosophy
+                                </a>
+                            </h3>
+                            <h3>
+                                <a href="http://pages.uoregon.edu/edmatters/archive/14apr.html#story-2">
+                                UO, Russian university collaborate to improve child welfare
+                                </a>
+                            </h3>
+                            <h3>
+                                <a href="http://pages.uoregon.edu/edmatters/archive/14apr.html#story-3">
+                                COE doc students aim to help tribal communities
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div class="archive-divider"></div>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+
+            <div id="2014-february">
+                <div class="story-wrapper" id="archive-issue-2">
+                    <div class="archive-image-screen">
+                        <div class="archive-headline">
+                            <h3>
+                                <a href="http://pages.uoregon.edu/edmatters/archive/14feb.html">
+                                <span class="year">
+                                February 2014
+                                </span>
+                                </a>
+                            </h3>
+                            <h3>
+                                <a href="http://pages.uoregon.edu/edmatters/archive/14feb.html#story-2">
+                                Mexican supergroup can't quite bridge Eugene's cultural divide
+                                </a>
+                            </h3>
+                            <h3>
+                                <a href="http://pages.uoregon.edu/edmatters/archive/14feb.html#story-3">
+                                Getting ready for Common Core
+                                </a>
+                            </h3>
+                            <h3>
+                                <a href="http://pages.uoregon.edu/edmatters/archive/14feb.html#story-1">
+                                Crow '52 used UO education degree to unlock the world
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                    
+                    <div class="archive-divider"></div>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+
+            <div id="2013-november">
+                <div class="story-wrapper" id="archive-issue-1">
+                    <div class="archive-image-screen">
+                        <div class="archive-headline">
+                            <h3>
+                                <a href="http://pages.uoregon.edu/edmatters/archive/13nov.html">
+                                <span class="year">
+                                November 2013
+                                </span>
+                                </a>
+                            </h3>
+                            <h3>
+                                <a href="http://pages.uoregon.edu/edmatters/archive/13nov.html#story-2">
+                                Alumni commemorate Buckeye tree
+                                </a>
+                            </h3>
+                            <h3>
+                                <a href="http://pages.uoregon.edu/edmatters/archive/13nov.html#story-1">
+                                Rep. Bonamici learns about College of Education impact
+                                </a>
+                            </h3>
+                            <h3>
+                                <a href="http://pages.uoregon.edu/edmatters/archive/13nov.html#story-3">
+                                Newest rankings validate continued COE excellence
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+
+            <footer class="yellow">
+                <h2>
+                    EDUCATION MATTERS
+                </h2>
+
+                <p class="dashed-top dashed-bottom footer-type">
+                    <strong>
+                    Published by the <br>
+                    </strong>
+                    <a href="https://education.uoregon.edu/" target="_blank">
+                    University of Oregon <br class="mobileonly">College of Education
+                    </a>
+                </p>
+
+                <p class="footer-type footer-col left">
+                    Marketing and Communications<br>
+                    College of Education<br>
+                    1215 University of Oregon<br>
+                    Eugene, OR 97403-1215
+                </p>
+
+                <ul class="footer-type left footer-col">
+                    <li>
+                        <a href="http://uocoe.me/edumanage" target="_blank">
+                        Manage your subscription
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://youtube.com/uoeducation" target="_blank">
+                        College of Education videos
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="mailto:edmatters@uoregon.edu" target="_blank">
+                        E-mail <em>Education Matters</em>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="clearfix"></div>
+            </footer>
+        </div>
+    </body>
+</html>

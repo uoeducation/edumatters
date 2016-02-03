@@ -1,0 +1,522 @@
+/*//**//**//**//**//**//**//**//**//**//**//**
+
+    Global HTML element style declarations
+
+*//**//**//**//**//**//**//**//**//**//**//**/
+
+h1 {
+    text-decoration: none;
+    font-size: 1.8em;
+    font-family: Tahoma, sans-serif;
+    color: rgb(142, 46, 46);
+    padding: 0;
+    margin: 0 0 .5em 0;
+}
+
+h2 {
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 1.3em;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: .01em;
+    color: #2e2e2e;
+    padding-bottom: .5em;
+}
+
+h3 {
+    font-family: Tahoma, Arial, sans-serif;    
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: .01em;
+    color: #2e2e2e;
+    padding-bottom: .5em;
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+    color: #a13020;
+    font-weight: 600;
+}
+
+p {
+    margin: 0;
+    -webkit-margin: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+body {
+     margin: 0px;
+     padding: 0px;
+     font-size: 14pt;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/*//**//**//**//**//**//**//**//**//**//**//**
+
+    Style declarations for HTML elements with
+    ID attributes
+
+*//**//**//**//**//**//**//**//**//**//**//**/
+
+/*//**//**//**//**//**//**//**//**//**//**//**
+
+    Alert Box
+    Remove the display:none; command that
+    follows in the #alert style declarations
+    to show the alert box on the page
+
+*//**//**//**//**//**//**//**//**//**//**//**/
+
+#alert {
+    background: #a13020;
+    padding: 40px;
+    display: none;
+}
+
+/*//**//**//**//**//**//**//**//**//**//**//**
+
+    The following style declarations should
+    not change
+
+*//**//**//**//**//**//**//**//**//**//**//**/
+
+#container {
+    max-width: 600px;
+    margin: auto;
+}
+
+#logo {
+    border: 0;
+    float: left;
+    padding: 5px 1.5em 0 0;
+    height: 100px;
+}
+
+#masthead {
+    border: 0;
+    float: right;
+    width: 396.5px;
+}
+
+#tagline {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#taglinecopy {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+#footer-graf {
+    margin: 1.5em 0;
+}
+
+/*//**//**//**//**//**//**//**//**//**//**//**
+
+    Style declarations for HTML elements with
+    class attributes
+
+*//**//**//**//**//**//**//**//**//**//**//**/
+
+.gray {
+    color: rgb(46, 46, 46);
+}
+
+.yellow {
+    background: #fee123;
+    padding: 40px;
+    clear: both;
+}
+
+.dashed-bottom {
+    border-bottom: dashed 1px #2e2e2e;
+    padding-bottom: .5em;
+}
+
+.dashed-top {
+    border-top: dashed 1px #2e2e2e;
+    padding-top: .5em;
+}
+
+.story-col {
+    width: 100%;
+}
+
+.story-col-hor {
+    margin: 0 10px;
+}
+
+.continue {
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    color: #a13020;
+    line-height: 1.5em;
+}
+
+.body {
+    line-height: 1.6em;
+}
+
+.copy {
+    font-family: Cambria, Palatino, serif;
+    font-size: 1.1em;
+}
+
+.arrow {
+    font-size: 19pt;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.shadow {
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 15px;
+    z-index: 1;
+    float: left;
+    position: relative;
+    margin: 0;
+}
+
+.icon {
+     border: 0;
+     height: 36px;
+     width: 36px;
+     margin: auto;
+     display: block;
+     padding-bottom: .5em;
+}
+
+.three-col {
+    width: 28%;
+    float: left;
+    margin: 0 0 20px 40px;
+}
+
+.three-col:first-of-type {
+    margin-left: 0;
+}
+
+.col-copy {
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 1em;
+}
+
+.three-col p {
+    margin: 1em 0 0 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.social-icon {
+    width: 48px;
+    height: 48px;
+    border: 0;
+}
+
+.icon-list {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin: auto;
+}
+
+.icon-list li {
+    padding: 0 0 0 45px;
+    display: inline;
+}
+
+.footer-type {
+    color: #2e2e2e;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding-right: 1.5em;
+}
+
+.footer-col {
+    margin-top: 1.5em;
+}
+
+.footer-col li {
+    margin: .7em 0;
+}
+
+.footer-col li:first-of-type {
+    margin-top: 0;
+}
+
+.center-type {
+    text-align: center;
+}
+
+.image-grid {
+    height: 600px;
+    width: 100%;
+    background: #ede9e0;
+    float: left;
+}
+
+.image-grid-piece {
+    width: 50%;
+    height: 50%;
+    vertical-align: bottom;
+}
+
+.image-grid-headline {
+    padding: 40px;
+    margin: 0;
+}
+
+.image-grid-headline a {
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 0;
+    line-height: 1.25em;
+    color: #a13020;
+    font-weight: 600;
+    text-shadow: #dedede 1px 1px 0px;
+}
+
+.story-col-left {
+    width: 50%;
+    float: left;
+}
+
+.story-col-right {
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.story-wrapper {
+    margin: 0 10px;
+    background: #ede9e0;
+    padding: 0;
+}
+
+.corner {
+    border: 0;
+    height: 10px;
+    width: 10px;
+}
+
+.margin-tb {
+    margin: .5em 0;
+}
+
+.gradient {
+     height: 100%;
+     width: 60px;
+     float: right;
+     position: relative;
+     top: -15px;
+}
+
+.gradient-hori {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    bottom: 0;
+    float: left;
+    margin: 0 0 10px 0;
+    top: 225px;
+}
+
+.image-screen {
+    background: rgba(237, 233, 224, .65);
+    height: 100%;
+}
+
+.story-end {
+    height: 10px;
+}
+
+.mobileonly {
+    display: none;
+}
+
+.horizontal-wrap {
+    margin: 0 30px;
+}
+
+/*//**//**//**//**//**//**//**//**//**//**//**
+
+    Responsive style declarations that a web
+    browser applies to the page when the
+    criteria set forth in the media query are
+    met. In this case, when the viewing window
+    600px wide or smaller, the styles that
+    follow are applied.
+
+*//**//**//**//**//**//**//**//**//**//**//**/
+
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 1.5em;
+        padding: 0;
+        margin: 0 0 .5em 0;
+    }
+
+    #logo {
+        height: auto;
+        width: 207px;
+        float: none;
+        padding: 1em 0;
+    }
+
+    #masthead {
+        width: 100%;
+        height: auto;
+    }
+
+    #taglinecopy {
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    #alert {
+        padding: 20px;
+    }
+
+    #tagline {
+        margin-top: 0;
+    }
+
+    .body {
+        line-height: 1.5em;
+    }
+
+    .copy {
+        font-size: 1em;
+    }
+
+    .story-col {
+        float: left;
+        width: 100%;
+    }
+
+    .continue {
+        font-size: 1em;
+    }
+
+    .arrow {
+        font-size: 1.4em;
+    }
+
+    .yellow {
+        padding: 1.5em 20px;
+    }
+
+    .image-grid {
+        height: 500px;
+    }
+
+    .image-grid-headline {
+        padding: 20px;
+    }
+
+    .image-grid-headline a {
+        font-size: 1.2em;
+        line-height: 1.2em;
+    }
+
+    .icon-list li {
+        padding: 0;
+        padding-left: 20px;
+        display: inline;
+    }
+
+    .social-icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    .footer-type {
+        font-size: 1em;
+        line-height: 1.4em;
+    }
+
+    .mobile-left {
+        float: left;
+    }
+
+    .mobileonly {
+        display: inherit;
+    }
+
+    .icon-list li:first-of-type {
+        padding-left: 0;
+    }
+
+    .horizontal-wrap {
+        margin: 0 10px;
+    }
+
+    .mobile-invisible {
+        display: none;
+    }
+
+    .gradient-hori {
+        height: 30px;
+        top: 155px;
+    }
+
+    .three-col {
+        margin: 3em auto 0 auto;
+    }
+
+    .three-col:first-of-type {
+        margin: 0 auto 0 auto;
+    }
+
+    .three-col-mobile {
+        display: block;
+        width: 100%;
+        float: none;
+    }
+
+    .story-col-left {
+        display: block;
+        width: 100%;
+        float: none;
+    }
+
+    .story-col-right {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    .icon {
+        margin: 0 15px 15px 0;
+        float: left;
+    }
+
+    .center-type {
+        text-align: left;
+        line-height: 48px;
+    }
+
+    .margin-tb {
+        margin: 1em 0;
+    }
+    
+}
