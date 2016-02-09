@@ -10,13 +10,16 @@
 }
 
 .shadow:before {
-    box-shadow:                     inset 0px 50px 60px -40px #24262B;
     box-shadow:                     inset 0 60px 60px -50px #24262B;
     content:                        '';
     display:                        block;
     position:                       absolute;
     width:                          100%;
     height:                         100%;
+}
+
+.story-art {
+    display:                        block;
 }
 
 @media screen and (max-width:599px) {
@@ -137,8 +140,8 @@
     }
 
     .story-art {
-        width:                          100%            !important;
         height:                         auto            !important;
+        width:                          100%            !important;
     }
 
     .uo-logo {
